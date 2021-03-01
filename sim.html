@@ -3240,9 +3240,6 @@
             if(window.innerWidth <= 1024) {
                 logoSelect.forEach(item => {
                     item.checked = false;
-                    item.onclick = () => {
-                        cateBodyHide.style.display = 'block';
-                    };
                 });
             }
             select.onchange = () => {
@@ -3251,6 +3248,11 @@
                 
                 displayPrice.innerHTML = `${currentPrice.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".")} ₫`;
             };
+            logoSelect.forEach(btn => {
+                    btn.onclick = () => {
+                        cateBodyHide.style.display = 'block';
+                    };
+            });
             radPriceAll.forEach(rad => {
                 rad.onchange = () => {
                     var currentPrice = select.value * rad.value;
