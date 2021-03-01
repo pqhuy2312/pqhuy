@@ -1,0 +1,550 @@
+body {
+    background-color:#F3F3F3;
+}
+.bd-top-container {
+    background-color: #FFFFFF;
+    padding: 30px 0;
+    box-shadow: 0 0 3px 0 #dee2e6;
+}
+.router {
+    height: 38px;
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+.link-with-border-custom {
+    font-size: 1.5rem;
+    margin-right: 14px;
+    position: relative;
+    font-weight: 400;
+}
+.no-after.link-with-border-custom::after {
+    display: none;
+}
+.link-with-border-custom::after {
+    content: "/";
+    position: absolute;
+    color: rgb(179, 173, 173);
+    font-size: 1.8rem;
+    right: -11px;
+}
+.current-page {
+    color: #6c757d;
+    font-size: 1.5rem;
+}
+/* banner */
+.banner {
+    margin: 10px 0 25px 0;
+    display: flex;
+    background-color: var(--white-color);
+    border-radius: 4px;
+    align-items: center;
+    justify-content: center;
+    cursor: default;
+    padding: 5px 0;
+}
+.banner-text {
+    color: #ff001f;
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin: 0 2px 0 5px;
+}
+.banner-btn {
+    height: 24px;
+}
+/*  */
+.sim-main-cate {
+    margin: 25px 0;
+    border-radius: 4px;
+    box-shadow: 0 14px 6px 0 rgb(0 0 0 / 3%);
+    padding: 15px;
+    background-color: #fff;
+}
+.sim-main-cate-list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.sim-main-cate-title {
+    font-size: 18px;
+    font-weight: 550;
+    color: #252525;
+    margin-bottom: 20px;
+    cursor: default;
+}
+.sim-main-cate-title.sc-title {
+    margin-top: 10px;
+}
+.sim-main-cate-link {
+    background-image: url(../images/graphic.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 0;
+    width: 120px;
+    flex-shrink: 0;
+}
+.itel .sim-main-cate-link {
+    background-color: #ed1d25;
+}
+.vietnamobile .sim-main-cate-link {
+    background-color: #f27b00;
+}
+.mobifone .sim-main-cate-link {
+    background-color: #00609b;
+}
+.sim-main-cate-item {
+    display: flex;
+    border: solid 1px #c3bdbd;
+    border-radius: 4px;
+    overflow: hidden;
+    width: 49%;
+    margin-bottom: 10px;
+    flex-shrink: 0;
+}
+.itel .sim-main-cate-text {
+    color: #fed500;
+}
+.vietnamobile .sim-main-cate-text {
+    color: #fff;
+}
+.mobifone .sim-main-cate-text {
+    color: #fed500;
+}
+.sim-main-cate-text {
+    font-size: 2.4rem;
+    font-weight: 700;
+    word-wrap: break-word;
+    height: 156px;
+    line-height: 35px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.sim-main-cate-detail {
+    font-size: 1.4rem;
+    color: #fff;
+    text-decoration: underline;
+    margin-bottom: 9px;
+}
+.sim-main-cate-detail:hover {
+    font-size: 1.5rem;
+}
+.sim-main-cate-body {
+    padding: 15px 0 15px 15px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+.sim-main-cate-policy-top {
+    display: flex;
+    margin-bottom: 15px;
+}
+.sim-main-cate-policy-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: default;
+    flex-shrink: 0;
+    flex-grow: 1;
+}
+.sim-main-cate-policy-item:first-child {
+    max-width: 42%;
+    border-right: 1px solid #ccc;
+}
+.sim-main-cate-policy-item:last-child {
+    border-left: 1px solid #ccc;
+}
+.sim-main-cate-policy-item-icon {
+    color: #4A82EB;
+    font-size: 2rem;
+    margin-bottom: 7px;
+}
+.sim-main-cate-policy-item-value {
+    font-weight: 700;
+    color: #000;
+    font-size: 1.2rem;
+    margin-bottom: 3px;
+}
+.sim-main-cate-policy-item-value-detail {
+    font-size: 1.2rem;
+}
+.sim-main-cate-policy-mid {
+    cursor: default;
+}
+.sim-main-cate-policy-mid-item-icon {
+    font-size: 1.6rem;
+    color: #5CB85C;
+    margin-right: 3px;
+}
+.sim-main-cate-policy-mid-item-label {
+    font-size: 1.4rem;
+    color: #737373;
+    line-height: 22px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.sim-main-cate-policy-mid-item-rad {
+    margin-bottom: 6px;
+    display: flex;
+    align-items: baseline;
+}
+.sim-main-cate-body-footer {
+    display: flex;
+    margin-top: auto;
+    cursor: default;
+    align-items: center;
+}
+.sim-main-cate-body-footer-price-label {
+    font-size: 1.3rem;
+    color: #4a4a4a;
+    font-weight: bold;
+    margin-bottom: 6px;
+}
+.sim-price {
+    font-size: 1.6rem;
+    font-weight: 550;
+    color: #cb1c22;
+}
+.sim-main-cate-body-footer-btn {
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #0275d8;
+    border: solid 1px #0275d8;
+    padding: 7px 15px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sim-main-cate-body-footer-btn:hover {
+    color: #fff;
+    background-color: #0275d8;
+}
+.sim-main-cate-logo {
+    max-width: 93%;
+}
+/* sim-card-help-box */
+.sim-card-help-box-title {
+    font-size: 1.8rem;
+    line-height: 22px;
+    color: #333;
+}
+.sim-card-help-box-cmt-count {
+    color: var(--white-color);
+    background-color: #e40c0c;
+    border-radius: 5px;
+    padding: 2px 5px;
+    font-size: 1.3rem;
+    position: relative;
+    top: -3px;
+    left: 3px;
+    display: inline-block;
+    line-height: 13px;
+}
+.sim-card-help-box-header {
+    display: flex;
+    align-items: flex-start;
+    padding: 30px 15px 15px 15px;
+    border-bottom: 1px solid #e3e3e3;
+    margin-bottom: 20px;
+}
+/*  */
+.help-box-cmt-box-input {
+    font-size: 1.7rem;
+    height: 60px;
+}
+.help-box-cmt-card-avatar {
+    width: 30px;
+    height: 30px;
+}
+.help-box-cmt-card-user-name {
+    font-size: 1.5rem;
+}
+.help-box-cmt-card-time {
+    font-size: 1.3rem;
+}
+.help-box-cmt-card-cmt {
+    font-size: 1.4rem;
+}
+.help-box-cmt-card-rep {
+    margin-left: 50px;
+}
+/*  */
+.card-cate-box {
+    border: 1px solid #ebebeb;
+}
+.card-cate-box-header {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #252525;
+    border-bottom: 1px solid #ebebeb;
+    padding: 15px;
+    cursor: default;
+}
+.card-cate-box-body-title {
+    font-size:1.6rem;
+    margin-bottom: 15px;
+}
+.card-cate-box-body-title span {
+    font-weight: 700;
+}
+.card-cate-box-body-hide {
+    margin-top: 20px;
+}
+.card-cate-box-body {
+    padding: 15px;
+}
+.card-cate-box-body-list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 -5px;
+}
+.card-cate-box-body-item {
+    padding: 5px;
+    width: 33.333%;
+}
+.card-cate-box-body-item-logo {
+    display: flex;
+    justify-content: center;
+    padding: 7px 10px;
+    border: solid 1px #ccc;
+    cursor: pointer;
+    color: #4a4a4a;
+    font-size: 1.4rem;
+    border-radius: 2px;
+}
+.card-cate-box-body-item-logo img {
+    width: 80px;
+}
+.card-cate-box-body-item-rad:checked ~ div {
+    border: solid 1px #cb1c22;
+    box-shadow: 0 0 0 2px #cb1c22 inset;
+}
+.select-n-price {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.select-n-price-s {
+    flex-basis: 45%;
+    outline: none;
+    padding: 5px 15px;
+    border-radius: 3px;
+    background-color: #fff;
+    border: solid 1px #ccc;
+    height: 34px;
+}
+.select-n-price-p {
+    flex-basis: 45%;
+    display: flex;
+    align-items: center;
+    font-size: 1.4rem;
+    color: #000;
+    cursor: default;
+}
+.select-n-price-p-price {
+    font-weight: 500;
+    color: #cb1c22;
+    margin-left: 4px;
+}
+.card-cate-box-input-text {
+    width: 100%;
+    padding: 5px 15px;
+    border: solid 1px #ccc;
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+    border-radius: 2px;
+    outline: none;
+    height: 34px;
+}
+.card-cate-box-body-btn {
+    display: flex;
+    justify-content: space-between;
+}
+.card-cate-box-body-btn-item {
+    text-decoration: none;
+    display: flex;
+    height: 53px;
+    width: 48%;
+    border-radius: 2px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.card-cate-box-body-btn-item p {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 5px;
+}
+.card-cate-box-body-btn-item span {
+    font-size: 1.2rem;
+    color: #fff;
+}
+.card-cate-box-body-btn-left {
+    background-color: #4A82EB;
+}
+.card-cate-box-body-btn-right {
+    background-color: #CB1C22;
+}
+.card-game-cate-box {
+    margin-top: 20px;
+}
+.card-cate-box-body-info-prod {
+    margin-bottom: 15px;
+    color: red;
+    font-size: 1.4rem;
+    display: block;
+    font-weight: 500;
+}
+.sim-card-text-box {
+    margin-top: 20px;
+    border: 1px solid #FFE8A1;
+    background-color: #FFF3CD;
+    border-radius: 4px;
+    cursor: default;
+}
+.sim-card-text-box-header {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #252525;
+    border-bottom: 1px solid #FFE8A1;
+    padding: 15px;
+}
+.sim-card-text-box-body {
+    padding: 15px;
+}
+.sim-card-text-box-body {
+    font-size: 1.4rem;
+    line-height: 20px;
+}
+.sim-card-text-box-body p {
+    margin-bottom: 15px;
+}
+.sim-card-text-box-body p:last-child {
+    margin: 0;
+}
+.sim-service-box {
+    margin-top: 20px;
+    border-radius: 4px;
+    cursor: default;
+    border: 1px solid #EBEBEB;
+    background-color: #fff;
+}
+.sim-service-box-header {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #252525;
+    border-bottom: 1px solid #EBEBEB;
+    padding: 15px;
+}
+.sim-service-box-body {
+    list-style-type: none;
+    padding: 15px;
+}
+.sim-service-box-body-item {
+    margin-bottom: 20px;
+}
+.sim-service-box-body-item:last-child {
+    margin: 0;
+}
+.sim-service-box-body-item p{
+    font-size: 1.4rem;
+    line-height: 20px;
+    color: #000;
+}
+.prod-hotline-box {
+    margin-top: 20px;
+    border-radius: 4px;
+    cursor: default;
+    border: 1px solid #EBEBEB;
+    background-color: #fff;
+}
+.prod-hotline-box-header {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #252525;
+    border-bottom: 1px solid #EBEBEB;
+    padding: 15px;
+}
+.prod-hotline-box-body-item {
+    list-style: none;
+    display: flex;
+    padding: 10px 15px 10px;
+    border-bottom: 1px solid #EBEBEB;
+    align-items: flex-start;
+}
+.prod-hotline-box-body-item:last-child {
+    border: none;
+}
+.prod-hotline-box-body-item-img {
+    margin-right: 15px;
+    display: block;
+    padding: 0 5px;
+}
+.prod-hotline-box-body-item-img img {
+    vertical-align: middle;
+}
+.prod-hotline-box-body-item-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 1.4rem;
+    line-height: 20px;
+}
+.prod-hotline-box-body-item-content-top {
+    margin-bottom: 8px;
+}
+.prod-hotline-box-body-item-content-phone-num {
+    font-weight: 700;
+}
+.prod-hotline-game-box {
+    margin-top: 20px;
+    border-radius: 4px;
+    cursor: default;
+    border: 1px solid #EBEBEB;
+    background-color: #fff;
+}
+.prod-hotline-game-box-header {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #252525;
+    border-bottom: 1px solid #EBEBEB;
+    padding: 15px;
+}
+.prod-hotline-game-box-body-item {
+    list-style: none;
+    border-bottom: 1px solid #EBEBEB;
+    padding: 10px 15px;
+    font-size: 1.4rem;
+}
+.prod-hotline-game-box-body-item span {
+    font-weight: 700;
+}
+.prod-hotline-game-box-body-item:last-child {
+    border: 0;
+}
+.hide-on-pc {
+    display: none;
+}
+.sim-main-cate-list-title {
+    font-size: 1.7rem;
+    padding: 10px 0;
+    font-weight: 500;
+    color: #252525;
+    display: none;
+}
+.card-cate-box-header-icon {
+    margin-right: 2px;
+    display: none;
+}

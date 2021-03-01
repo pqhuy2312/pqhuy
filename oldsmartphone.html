@@ -1,0 +1,2851 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FPT Shop</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/grid.css">
+    <link rel="stylesheet" href="./assets/fonts/fontawesome-free-5.15.1-web/css/all.min.css">
+    <script type="text/javascript" src="./assets/js/jquery-3.5.1.min.js"></script>
+    <script src="http://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./assets/slick-1.8.1/slick/slick.css">
+    <link rel="stylesheet" href="./assets/slick-1.8.1/slick/slick-theme.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/slider.css">
+    <link rel="stylesheet" href="./assets/css/oldsmartphone.css">
+    <link rel="stylesheet" href="./assets/css/header.css">
+    <link rel="stylesheet" href="./assets/css/footer.css">
+    
+    <link rel="stylesheet" href="./assets/css/reponsive.css">
+</head>
+<body>
+    <div class="app">
+        <header class="header">
+            
+            <div class="header__backgroud-top">
+                <div class="nav-overlay"></div>   
+                <div class="grid wide app-header">
+                    
+                        <nav class="header__navbar">
+                            <div class="header__navbar-logo-search">
+                                <a class="header__navbar-link header__navbar-link-icon-menu" href="#">
+                                    <i class="header__icon-menu fas fa-bars"></i>
+                                </a>
+                                
+                                <div class="menu-top-mobile-tablet">
+                                    <div class="menu-top-mobile-tablet-header">
+                                        <a href="#" class="menu-top-mobile-tablet-header-link">
+                                            <img src="./assets/images/logo-mb.png" alt="logo" class="menu-top-mobile-tablet-header-logo">
+                                        </a>
+                                        <i class="menu-tablet-mobile-close-icon fas fa-times"></i>
+                                    </div>
+                                    <ul class="menu-top-mobile-tablet-list">
+                                        <li class="menu-top-mobile-tablet-item">
+                                            <a href="./mainmobile.html" class="menu-top-mobile-tablet-link">
+                                                    <span class="product-icon"><i class=" fas fa-mobile-alt"></i></span>
+                                                    <span class="menu-top-mobile-tablet-name">Điện thoại</span>
+                                                    <input id = "show-product-list" type="checkbox" hidden>
+                                                    <i id="smart-phone" class="menu-top-mobile-tablet-down-icon menu-top-mobile-tablet-icon  fas fa-chevron-down"></i>
+                                                    <i id="smart-phone" class="fas fa-chevron-up menu-top-mobile-tablet-up-icon menu-top-mobile-tablet-icon"></i>
+                                            </a>
+                                            <ul class="smart-phone-product-list menu-top-mobile-tablet-product-list">
+                                                <li class="menu-top-mobile-tablet-product-item">
+                                                    <a href="#" class="menu-top-mobile-tablet-product-link">
+                                                        Apple (iPhone)
+                                                    </a>
+                                                </li>
+                                                <li class="menu-top-mobile-tablet-product-item">
+                                                    <a href="#" class="menu-top-mobile-tablet-product-link">
+                                                        Samsung
+                                                    </a>
+                                                </li>
+                                                <li class="menu-top-mobile-tablet-product-item">
+                                                    <a href="#" class="menu-top-mobile-tablet-product-link">
+                                                        OPPO
+                                                    </a>
+                                                </li>
+                                                <li class="menu-top-mobile-tablet-product-item">
+                                                    <a href="#" class="menu-top-mobile-tablet-product-link">
+                                                        Vivo
+                                                    </a>
+                                                </li>
+                                                <li class="menu-top-mobile-tablet-product-item">
+                                                    <a href="#" class="menu-top-mobile-tablet-product-link">
+                                                        Vsmart
+                                                    </a>
+                                                </li>
+                                                <li class="menu-top-mobile-tablet-product-item">
+                                                    <a href="#" class="menu-top-mobile-tablet-product-link">
+                                                        Xiaomi
+                                                    </a>
+                                                </li>
+                                                <li class="menu-top-mobile-tablet-product-item">
+                                                    <a href="#" class="menu-top-mobile-tablet-product-link">
+                                                        Realme
+                                                    </a>
+                                                </li>
+                                                <li class="menu-top-mobile-tablet-product-item">
+                                                    <a href="#" class="menu-top-mobile-tablet-product-link">
+                                                        Nokia
+                                                    </a>
+                                                </li>
+                                                <li class="menu-top-mobile-tablet-product-item">
+                                                    <a href="#" class="menu-top-mobile-tablet-product-link">
+                                                        Huawei
+                                                    </a>
+                                                </li>
+                                                <li class="menu-top-mobile-tablet-product-item">
+                                                    <a href="#" class="menu-top-mobile-tablet-product-link">
+                                                        Masstel
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="menu-top-mobile-tablet-item">
+                                            <a href="./mainlaptop.html" class="menu-top-mobile-tablet-link">
+                                                    <span class="product-icon"><i class="fas fa-laptop"></i></span>
+                                                    <span class="menu-top-mobile-tablet-name">Laptop</span>
+                                                    <i id="laptop" class="menu-top-mobile-tablet-down-icon menu-top-mobile-tablet-icon  fas fa-chevron-down"></i>
+                                                    <i id="laptop" class="fas fa-chevron-up menu-top-mobile-tablet-up-icon menu-top-mobile-tablet-icon"></i>
+                                            </a>
+                                            <ul class="laptop-product-list smart-phone-product-list menu-top-mobile-tablet-product-list">
+                                                <li class="menu-top-mobile-tablet-product-item">
+                                                    <a href="#" class="menu-top-mobile-tablet-product-link">
+                                                        Apple (Macbook)
+                                                    </a>
+                                                </li>
+                                                <li class="menu-top-mobile-tablet-product-item">
+                                                    <a href="#" class="menu-top-mobile-tablet-product-link">
+                                                        Asus
+                                                    </a>
+                                                </li>
+                                                <li class="menu-top-mobile-tablet-product-item">
+                                                    <a href="#" class="menu-top-mobile-tablet-product-link">
+                                                        Dell
+                                                    </a>
+                                                </li>
+                                                <li class="menu-top-mobile-tablet-product-item">
+                                                    <a href="#" class="menu-top-mobile-tablet-product-link">
+                                                        HP
+                                                    </a>
+                                                </li>
+                                                <li class="menu-top-mobile-tablet-product-item">
+                                                    <a href="#" class="menu-top-mobile-tablet-product-link">
+                                                        Lenovo
+                                                    </a>
+                                                </li>
+                                                <li class="menu-top-mobile-tablet-product-item">
+                                                    <a href="#" class="menu-top-mobile-tablet-product-link">
+                                                        Acer
+                                                    </a>
+                                                </li>
+                                                <li class="menu-top-mobile-tablet-product-item">
+                                                    <a href="#" class="menu-top-mobile-tablet-product-link">
+                                                        Microsoft (Surface)
+                                                    </a>
+                                                </li>
+                                                <li class="menu-top-mobile-tablet-product-item">
+                                                    <a href="#" class="menu-top-mobile-tablet-product-link">
+                                                        MSI
+                                                    </a>
+                                                </li>
+                                                
+                                            </ul>
+                                        </li>
+                                        <li class="menu-top-mobile-tablet-item">
+                                            <a href="./mainprint.html" class="menu-top-mobile-tablet-link">
+                                                <span class="product-icon"><i class="fas fa-print"></i></span>
+                                                <span class="menu-top-mobile-tablet-name">Máy in</span>
+                                                <i id="mayin" class="menu-top-mobile-tablet-down-icon menu-top-mobile-tablet-icon  fas fa-chevron-down"></i>
+                                                <i id="mayin" class="fas fa-chevron-up menu-top-mobile-tablet-up-icon menu-top-mobile-tablet-icon"></i>
+                                            </a>
+                                            <ul class="mayin-product-list smart-phone-product-list menu-top-mobile-tablet-product-list">
+                                                <li class="menu-top-mobile-tablet-product-item">
+                                                    <a href="#" class="menu-top-mobile-tablet-product-link">
+                                                        HP
+                                                    </a>
+                                                </li>
+                                                <li class="menu-top-mobile-tablet-product-item">
+                                                    <a href="#" class="menu-top-mobile-tablet-product-link">
+                                                        Canon
+                                                    </a>
+                                                </li>
+                                                <li style="width: 96%; border-right: none;" class="menu-top-mobile-tablet-product-item">
+                                                    <a href="#" class="menu-top-mobile-tablet-product-link">
+                                                        Brother
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="menu-top-mobile-tablet-item">
+                                            <a href="./mainapple.html" class="menu-top-mobile-tablet-link">
+                                                <span class="product-icon"><i class="fab fa-apple"></i></span>
+                                                <span class="menu-top-mobile-tablet-name">Apple</span>
+                                                <i id="apple" class="menu-top-mobile-tablet-down-icon menu-top-mobile-tablet-icon  fas fa-chevron-down"></i>
+                                                <i id="apple" class="fas fa-chevron-up menu-top-mobile-tablet-up-icon menu-top-mobile-tablet-icon"></i>
+                                            </a>
+                                            <ul class="apple-product-list smart-phone-product-list menu-top-mobile-tablet-product-list">
+                                                <li class="menu-top-mobile-tablet-product-item">
+                                                    <a href="#" class="menu-top-mobile-tablet-product-link">
+                                                        iPhone
+                                                    </a>
+                                                </li>
+                                                <li class="menu-top-mobile-tablet-product-item">
+                                                    <a href="#" class="menu-top-mobile-tablet-product-link">
+                                                        iPad
+                                                    </a>
+                                                </li>
+                                                <li class="menu-top-mobile-tablet-product-item">
+                                                    <a href="#" class="menu-top-mobile-tablet-product-link">
+                                                        Macbook
+                                                    </a>
+                                                </li>
+                                                <li class="menu-top-mobile-tablet-product-item">
+                                                    <a href="#" class="menu-top-mobile-tablet-product-link">
+                                                        Apple Watch
+                                                    </a>
+                                                </li>
+                                                <li class="menu-top-mobile-tablet-product-item">
+                                                    <a href="#" class="menu-top-mobile-tablet-product-link">
+                                                        Apple Tai nghe
+                                                    </a>
+                                                </li>
+                                                <li class="menu-top-mobile-tablet-product-item">
+                                                    <a href="#" class="menu-top-mobile-tablet-product-link">
+                                                        iMac
+                                                    </a>
+                                                </li>
+                                                <li class="menu-top-mobile-tablet-product-item">
+                                                    <a href="#" class="menu-top-mobile-tablet-product-link">
+                                                        Mac Mini
+                                                    </a>
+                                                </li>
+                                                <li class="menu-top-mobile-tablet-product-item">
+                                                    <a href="#" class="menu-top-mobile-tablet-product-link">
+                                                        Sạc & Cáp
+                                                    </a>
+                                                </li>
+                                                <li class="menu-top-mobile-tablet-product-item">
+                                                    <a href="#" class="menu-top-mobile-tablet-product-link">
+                                                        Ốp lưng & Bao da
+                                                    </a>
+                                                </li>
+                                                <li class="menu-top-mobile-tablet-product-item">
+                                                    <a href="#" class="menu-top-mobile-tablet-product-link">
+                                                        Apple TV
+                                                    </a>
+                                                </li>
+                                                <li class="menu-top-mobile-tablet-product-item">
+                                                    <a href="#" class="menu-top-mobile-tablet-product-link">
+                                                        Chuột và Trackpad
+                                                    </a>
+                                                </li>
+                                                <li class="menu-top-mobile-tablet-product-item">
+                                                    <a href="#" class="menu-top-mobile-tablet-product-link">
+                                                        Bàn phím
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="menu-top-mobile-tablet-item">
+                                            <a href="./mainwatch.html" class="menu-top-mobile-tablet-link">
+                                                <span class="product-icon"><i class="far fa-clock"></i></span>
+                                                <span class="menu-top-mobile-tablet-name">Đồng hồ</span>
+                                            </a>
+                                        </li>
+                                        <li class="menu-top-mobile-tablet-item">
+                                            <a href="#" class="menu-top-mobile-tablet-link">
+                                                <span class="product-icon"><i class="fas fa-headphones"></i></span>
+                                                <span class="menu-top-mobile-tablet-name">Phụ kiện</span>
+                                                <i id="accessories" class="menu-top-mobile-tablet-down-icon menu-top-mobile-tablet-icon  fas fa-chevron-down"></i>
+                                                <i id="accessories" class="fas fa-chevron-up menu-top-mobile-tablet-up-icon menu-top-mobile-tablet-icon"></i>
+                                            </a>
+                                            <ul class="accessories-product-list smart-phone-product-list menu-top-mobile-tablet-product-list">
+                                                <li class="menu-top-mobile-tablet-product-item">
+                                                    <a href="#" class="menu-top-mobile-tablet-product-link">
+                                                        Bao da ốp lưng
+                                                    </a>
+                                                </li>
+                                                <li class="menu-top-mobile-tablet-product-item">
+                                                    <a href="#" class="menu-top-mobile-tablet-product-link">
+                                                        Sạc dự phòng
+                                                    </a>
+                                                </li>
+                                                <li class="menu-top-mobile-tablet-product-item">
+                                                    <a href="#" class="menu-top-mobile-tablet-product-link">
+                                                        Thẻ nhớ
+                                                    </a>
+                                                </li>
+                                                <li class="menu-top-mobile-tablet-product-item">
+                                                    <a href="#" class="menu-top-mobile-tablet-product-link">
+                                                        Phụ kiện Apple
+                                                    </a>
+                                                </li>
+                                                <li class="menu-top-mobile-tablet-product-item">
+                                                    <a href="#" class="menu-top-mobile-tablet-product-link">
+                                                        Miếng dán màn hình
+                                                    </a>
+                                                </li>
+                                                <li class="menu-top-mobile-tablet-product-item">
+                                                    <a href="#" class="menu-top-mobile-tablet-product-link">
+                                                        Tai nghe
+                                                    </a>
+                                                </li>
+                                                <li class="menu-top-mobile-tablet-product-item">
+                                                    <a href="#" class="menu-top-mobile-tablet-product-link">
+                                                        Loa
+                                                    </a>
+                                                </li>
+                                                <li class="menu-top-mobile-tablet-product-item">
+                                                    <a href="#" class="menu-top-mobile-tablet-product-link">
+                                                        USB - Ổ cứng
+                                                    </a>
+                                                </li>
+                                                <li class="menu-top-mobile-tablet-product-item">
+                                                    <a href="#" class="menu-top-mobile-tablet-product-link">
+                                                        Sạc cáp
+                                                    </a>
+                                                </li>
+                                                <li class="menu-top-mobile-tablet-product-item">
+                                                    <a href="#" class="menu-top-mobile-tablet-product-link">
+                                                        Chuột
+                                                    </a>
+                                                </li>
+                                                <li class="menu-top-mobile-tablet-product-item">
+                                                    <a href="#" class="menu-top-mobile-tablet-product-link">
+                                                        Balô - Túi xách
+                                                    </a>
+                                                </li>
+                                                <li  class="menu-top-mobile-tablet-product-item">
+                                                    <a href="#" class="menu-top-mobile-tablet-product-link">
+                                                        TV BOX
+                                                    </a>
+                                                </li>
+                                                <li class="menu-top-mobile-tablet-product-item">
+                                                    <a href="#" class="menu-top-mobile-tablet-product-link">
+                                                        Phụ kiện khác
+                                                    </a>
+                                                </li>
+                                                <li class="menu-top-mobile-tablet-product-item">
+                                                    <a href="#" class="menu-top-mobile-tablet-product-link">
+                                                        Bàn phím
+                                                    </a>
+                                                </li>
+                                                <li style="width: 96%; border-right: none;" class="menu-top-mobile-tablet-product-item">
+                                                    <a href="#" class="menu-top-mobile-tablet-product-link">
+                                                        Phụ kiện cũ
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="menu-top-mobile-tablet-item">
+                                            <a href="./oldproduct.html" class="menu-top-mobile-tablet-link">
+                                                <span class="product-icon"><i class="fas fa-redo-alt"></i></span>
+                                                <span class="menu-top-mobile-tablet-name">Máy cũ giá rẽ</span>
+                                            </a>
+                                        </li>
+                                        <li class="menu-top-mobile-tablet-item">
+                                            <a href="./maintablet.html" class="menu-top-mobile-tablet-link">
+                                                <span class="product-icon"><i class="fas fa-tablet-alt"></i></span>
+                                                <span class="menu-top-mobile-tablet-name">Tablet</span>
+                                                <i id="tablet" class="menu-top-mobile-tablet-down-icon menu-top-mobile-tablet-icon  fas fa-chevron-down"></i>
+                                                <i id="tablet" class="fas fa-chevron-up menu-top-mobile-tablet-up-icon menu-top-mobile-tablet-icon"></i>
+                                            </a>
+                                            <ul class="tablet-product-list smart-phone-product-list menu-top-mobile-tablet-product-list">
+                                                <li class="menu-top-mobile-tablet-product-item">
+                                                    <a href="#" class="menu-top-mobile-tablet-product-link">
+                                                        Apple (iPad)
+                                                    </a>
+                                                </li>
+                                                <li  class="menu-top-mobile-tablet-product-item">
+                                                    <a href="#" class="menu-top-mobile-tablet-product-link">
+                                                        Samsung
+                                                    </a>
+                                                </li>
+                                                <li class="menu-top-mobile-tablet-product-item">
+                                                    <a href="#" class="menu-top-mobile-tablet-product-link">
+                                                        Lenovo
+                                                    </a>
+                                                </li>
+                                                <li class="menu-top-mobile-tablet-product-item">
+                                                    <a href="#" class="menu-top-mobile-tablet-product-link">
+                                                        Masstel
+                                                    </a>
+                                                </li>
+                                                <li style="width: 96%; border-right: none;" class="menu-top-mobile-tablet-product-item">
+                                                    <a href="#" class="menu-top-mobile-tablet-product-link">
+                                                        Huawei
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="menu-top-mobile-tablet-item">
+                                            <a href="./sim.html" class="menu-top-mobile-tablet-link">
+                                                <span class="product-icon"><i class="fas fa-sim-card"></i></span>
+                                                <span class="menu-top-mobile-tablet-name">Sim</span>
+                                            </a>
+                                        </li>
+                                        <li class="menu-top-mobile-tablet-item">
+                                            <a href="#" class="menu-top-mobile-tablet-link">
+                                                <span class="product-icon"><i class="fab fa-microsoft"></i></span>
+                                                <span class="menu-top-mobile-tablet-name">Phần mềm</span>
+                                            </a>
+                                        </li>
+                                        <li class="menu-top-mobile-tablet-item">
+                                            <a href="./news.html" class="menu-top-mobile-tablet-link">
+                                                <span class="product-icon"><i class="fas fa-file-alt"></i></span>
+                                                <span class="menu-top-mobile-tablet-name">Thông tin hay</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <a class="header__navbar-link" href="./index.html">
+                                    <img class="header__navbar-logo" src="./assets/images/logo-mb.png" alt="">
+                                </a>
+                                <form action="" method="GET" class="header__search hide-on-mobile-tablet">
+                                    <input type="text" class="header__search-input" placeholder="Nhập tên điện thoại, máy tính, phụ kiện... cần tìm">
+                                    <button type="submit" class="header__search-button">
+                                        <i class="fas fa-search search-icon"></i>
+                                    </button>
+                                    <div class="suggest-box">
+                                        <div class="suggest-title">
+                                            Xu hướng tìm kiếm
+                                        </div>
+                                        <ul class="suggest-list">
+                                            <li class="suggest-item"><a class="suggest-link" href="#">iPhone</a></li>
+                                            <li class="suggest-item"><a class="suggest-link" href="#">Macbook 2020 m1</a></li>
+                                            <li class="suggest-item"><a class="suggest-link" href="#">iPhone 20 pro max</a></li>
+                                            <li class="suggest-item"><a class="suggest-link" href="#">iPhone 11</a></li>
+                                            <li class="suggest-item"><a class="suggest-link" href="#">Tablet</a></li>
+                                        </ul>
+                                    </div>
+                                    
+                                    
+                                </form>
+                            </div>
+                            <div class="header__navbar-menu hide-on-mobile-tablet">
+                                <ul class="header__navbar-menu-list">
+                                    <li class="header__navbar-menu-item header__navbar-menu-item-news">
+                                        <a href="./news.html" class="header__navbar-menu-link">
+                                            <i class="fas fa-file-alt header__navbar-menu-icon"></i>
+                                            <span>Thông tin hay</span>
+                                        </a>
+                                        <ul class="header__navbar-news-list">
+                                            <li class="header__navbar-news-item">
+                                                <a href="./news.html" class="header__navbar-news-link">
+                                                    <span>Tin mới</span>
+                                                </a>
+                                            </li>
+                                            <li class="header__navbar-news-item">
+                                                <a href="./sale.html" class="header__navbar-news-link">
+                                                    <span>Khuyến mãi</span>
+                                                </a>
+                                            </li>
+                                            <li class="header__navbar-news-item">
+                                                <a href="./trick.html" class="header__navbar-news-link">
+                                                    <span>Thủ thuật</span>
+                                                </a>
+                                            </li>
+                                            <li class="header__navbar-news-item">
+                                                <a href="./forgamer.html" class="header__navbar-news-link">
+                                                    <span>For Gamers</span>
+                                                </a>
+                                            </li>
+                                            <li class="header__navbar-news-item">
+                                                <a href="./videohot.html" class="header__navbar-news-link">
+                                                    <span>Video hot</span>
+                                                </a>
+                                            </li>
+                                            <li class="header__navbar-news-item">
+                                                <a href="./evaluate.html" class="header__navbar-news-link">
+                                                    <span>Đánh giá - Tư vấn</span>
+                                                </a>
+                                            </li>
+                                            <li class="header__navbar-news-item">
+                                                <a href="./appngame.html" class="header__navbar-news-link">
+                                                    <span>App & Game</span>
+                                                </a>
+                                            </li>
+                                            <li class="header__navbar-news-item">
+                                                <a href="./events.html" class="header__navbar-news-link">
+                                                    <span>Sự kiện</span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="header__navbar-menu-item">
+                                        <a href="#" class="header__navbar-menu-link">
+                                            <i class="far fa-question-circle header__navbar-menu-icon"></i>
+                                            <span>Hỏi đáp</span>
+                                        </a>
+                                    </li>
+                                    <li class="header__navbar-menu-item">
+                                        <a href="#" class="header__navbar-menu-link">
+                                            <i class="fas fa-shopping-cart header__navbar-menu-icon"></i>
+                                            <span>Giỏ hàng</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <ul class="header__navbar-contact-cart">
+                                <li class="header__navbar-contact-cart-item header__navbar-contact-cart-item-move">
+                                    <span>Gọi miễn phí</span>
+                                    <span>1800 6601</span>
+                                </li>
+                                <li class="header__navbar-contact-cart-item">
+                                    <a href="#" class="header__navbar-contact-cart-link">
+                                        <i class="fas fa-shopping-cart header__navbar-contact-cart-icon"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                            
+                            
+                            
+                            
+                        </nav>
+                        
+                        <form action="" method="GET" class=" header__search-mobile-tablet">
+                            <input type="text" class="header__search-mobile-tablet-input" placeholder="Bạn muốn mua gì?">
+                            <i class="fas fa-search search-icon-mobile-tablet"></i>
+                            <button type="submit" class="header__search-mobile-tablet-button">
+                                <b>Tìm</b>
+                            </button>
+                            <div class="header__search-mobile-tablet-suggest-box">
+                                <div class="suggest-title">
+                                    Xu hướng tìm kiếm
+                                </div>
+                                <ul class="suggest-list">
+                                    <li class="suggest-item"><a class="suggest-link" href="#">iPhone</a></li>
+                                    <li class="suggest-item"><a class="suggest-link" href="#">Macbook 2020 m1</a></li>
+                                    <li class="suggest-item"><a class="suggest-link" href="#">iPhone 20 pro max</a></li>
+                                </ul>
+                            </div>
+                            
+                        </form>
+                   
+                    
+                    
+                    
+                </div>
+            </div>            
+            <div class="modal-overlay-moblie"></div>
+            <div class="modal-overlay"></div>
+        <div class="header__backgroud-bottom hide-on-mobile-tablet">
+            <div class="grid wide">
+                <nav class="header__menu">
+                    <ul class="header__menu-list">
+                        <li class="header__menu-item">
+                            <a href="./mainmobile.html" class="header__menu-link">
+                                <i class=" header__menu-icon fas fa-mobile-alt"></i>
+                                <span>ĐIỆN THOẠI</span>
+                            </a>
+                            <div class="header__menu-box">
+                                <div class="menu-box-phone">
+                                    <div class="header__menu-box1">
+                                        <p class="header__menu-box-title">HÃNG SẢN XUẤT</p>
+                                        <ul class="header__menu-box-ul">
+                                            <li class="header__menu-box-li">
+                                                <a title="Apple (iPhone)" href="#" class="header__menu-box-a">
+                                                    Apple (iPhone)
+                                                </a>
+                                            </li>
+                                            <li class="header__menu-box-li">
+                                                <a title="Samsung" href="#" class="header__menu-box-a">
+                                                    Samsung
+                                                </a>
+                                            </li>
+                                            <li class="header__menu-box-li">
+                                                <a title="OPPO" href="#" class="header__menu-box-a">
+                                                    OPPO
+                                                </a>
+                                            </li>
+                                            <li class="header__menu-box-li">
+                                                <a title="Vivo" href="#" class="header__menu-box-a">
+                                                    Vivo
+                                                </a>
+                                            </li>
+                                            <li class="header__menu-box-li">
+                                                <a title="Vsmart" href="#" class="header__menu-box-a">
+                                                    Vsmart
+                                                </a>
+                                            </li>
+                                            <li class="header__menu-box-li">
+                                                <a title="Xiaomi" href="#" class="header__menu-box-a">
+                                                    Xiaomi
+                                                </a>
+                                            </li>
+                                            <li class="header__menu-box-li">
+                                                <a title="Realme" href="#" class="header__menu-box-a">
+                                                    Realme
+                                                </a>
+                                            </li>
+                                            <li class="header__menu-box-li">
+                                                <a title="Nokia" href="#" class="header__menu-box-a">
+                                                    Nokia
+                                                </a>
+                                            </li>
+                                            <li class="header__menu-box-li">
+                                                <a title="Huawei" href="#" class="header__menu-box-a">
+                                                    Huawei
+                                                </a>
+                                            </li>
+                                            <li class="header__menu-box-li">
+                                                <a title="Masstel" href="#" class="header__menu-box-a">
+                                                    Masstel
+                                                </a>
+                                            </li>
+                                        </ul>
+                                        <p class="header__menu-box-title">ĐỒNG HỒ THÔNG MINH</p>
+                                        <ul class="header__menu-box-ul">
+                                            <li class="header__menu-box-li">
+                                                <a class="header__menu-box-a" title="Apple Watch" href="#">
+                                                    Apple Watch
+                                                </a>
+                                            </li>
+                                            <li title="Samsung" class="header__menu-box-li">
+                                                <a class="header__menu-box-a" href="#">
+                                                    Samsung
+                                                </a>
+                                            </li>
+                                            <li title="OPPO" class="header__menu-box-li">
+                                                <a class="header__menu-box-a" href="#">
+                                                    OPPO
+                                                </a>
+                                            </li>
+                                            <li class="header__menu-box-li">
+                                                <a class="header__menu-box-a" title="Masstel" href="#">
+                                                    Masstel
+                                                </a>
+                                            </li>
+                                            <li class="header__menu-box-li">
+                                                <a  class="header__menu-box-a" title="Xiaomi" href="#">
+                                                    Xiaomi
+                                                </a>
+                                            </li>
+                                            <li class="header__menu-box-li">
+                                                <a  class="header__menu-box-a" title="KidPlus" href="#">
+                                                    KidPlus
+                                                </a>
+                                            </li>
+                                            <li class="header__menu-box-li">
+                                                <a  class="header__menu-box-a" title="Garmin" href="#">
+                                                    Garmin
+                                                </a>
+                                            </li>
+                                            <li class="header__menu-box-li">
+                                                <a  class="header__menu-box-a" title="Fitbit" href="#">
+                                                    Fitbit
+                                                </a>
+                                            </li>
+                                            <li class="header__menu-box-li">
+                                                <a  class="header__menu-box-a" title="Huawei" href="#">
+                                                    Huawei
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="header__menu-box2">
+                                        <p class="header__menu-box-title">
+                                            MỨC GIÁ
+                                        </p>
+                                        <ul class="header__menu-price">
+                                            <li class="header__menu-box-li">
+                                                <a title="Dưới 2 triệu" href="#" class="header__menu-box-a">
+                                                    Dưới 2 triệu
+                                                </a>
+                                            </li>
+                                            <li class="header__menu-box-li">
+                                                <a title="Từ 2 - 4 triệu" href="#" class="header__menu-box-a">
+                                                    Từ 2 - 4 triệu
+                                                </a>
+                                            </li>
+                                            <li class="header__menu-box-li">
+                                                <a title="Từ 4 - 7 triệu" href="#" class="header__menu-box-a">
+                                                    Từ 4 - 7 triệu
+                                                </a>
+                                            </li>
+                                            <li class="header__menu-box-li">
+                                                <a title="Từ 7 - 13 triệu" href="#" class="header__menu-box-a">
+                                                    Từ 7 - 13 triệu
+                                                </a>
+                                            </li>
+                                            <li class="header__menu-box-li">
+                                                <a title="Trên 13 triệu" href="#" class="header__menu-box-a">
+                                                    Trên 13 triệu
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="header__menu-box3">
+                                        <p class="header__menu-box-title">BÁN CHẠY NHẤT</p>
+                                        <ul class="header__menu-box3-bestsell">
+                                            <li class="header__menu-box3-bestsell-item">
+                                                <a href="#" class="header__menu-box3-bestsell-link">
+                                                    <img src="./assets/images/637267166321989432_SS-A11-xanh-dd.png" alt="Samsung Galaxy A11" class="header__menu-box3-bestsell-image">
+                                                </a>
+                                                <div>
+                                                    <a href="#" class="header__menu-box3-bestsell-link">Samsung Galaxy A11</a>
+                                                    <p class = "price">3.590.000 ₫</p>
+                                                </div>
+                                            </li>
+                                            <li class="header__menu-box3-bestsell-item">
+                                                <a href="#" class="header__menu-box3-bestsell-link">
+                                                    <img src="./assets/images/637341201120370331_oppo-reno4-tim-dd-st.png" alt="Samsung Galaxy A11" class="header__menu-box3-bestsell-image">
+                                                </a>
+                                                <div>
+                                                    <a href="#" class="header__menu-box3-bestsell-link">OPPO Reno4</a>
+                                                    <p class="price">6.990.000 ₫</p>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="header__menu-item">
+                            <a href="./mainlaptop.html" class="header__menu-link">
+                                <i class="header__menu-icon fas fa-laptop"></i>
+                                <span>LAPTOP</span>
+                            </a>
+                            <div class="header__menu-box">
+                                <div class="header__menu-box-laptop1">
+                                    <p class="header__menu-box-title">HÃNG SẢN XUẤT</p>
+                                    <ul class="header__menu-box-ul">
+                                        <li class="header__menu-box-li">
+                                            <a title="Apple (Macbook)" href="#" class="header__menu-box-a">
+                                                Apple (Macbook)
+                                            </a>
+                                        </li>
+                                        <li class="header__menu-box-li">
+                                            <a title="Asus" href="#" class="header__menu-box-a">
+                                                Asus
+                                            </a>
+                                        </li>
+                                        <li class="header__menu-box-li">
+                                            <a title="Dell" href="#" class="header__menu-box-a">
+                                                Dell
+                                            </a>
+                                        </li>
+                                        <li class="header__menu-box-li">
+                                            <a title="HP" href="#" class="header__menu-box-a">
+                                                HP
+                                            </a>
+                                        </li>
+                                        <li class="header__menu-box-li">
+                                            <a title="Lenovo" href="#" class="header__menu-box-a">
+                                                Lenovo
+                                            </a>
+                                        </li>
+                                        <li class="header__menu-box-li">
+                                            <a title="Acer" href="#" class="header__menu-box-a">
+                                                Acer
+                                            </a>
+                                        </li>
+                                        <li class="header__menu-box-li">
+                                            <a title="Microsoft (Surface)" href="#" class="header__menu-box-a">
+                                                Microsoft (Surface)
+                                            </a>
+                                        </li>
+                                        <li class="header__menu-box-li">
+                                            <a title="MSI" href="#" class="header__menu-box-a">
+                                                MSI
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <p class="header__menu-box-title">PHẦN MỀM</p>
+                                    <ul class="header__menu-box-ul">
+                                        <li class="header__menu-box-li">
+                                            <a title="Diệt Virus" href="#" class="header__menu-box-a">
+                                                Diệt Virus
+                                            </a>
+                                        </li>
+                                        <li class="header__menu-box-li">
+                                            <a title="Microsoft Office" href="#" class="header__menu-box-a">
+                                                Microsoft Office
+                                            </a>
+                                        </li>
+                                        <li class="header__menu-box-li">
+                                            <a title="Windows" href="#" class="header__menu-box-a">
+                                                Windows
+                                            </a>
+                                        </li>
+                                        <li class="header__menu-box-li">
+                                            <a title="Phần mềm khác" href="#" class="header__menu-box-a">
+                                                Phần mềm khác
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <p class="header__menu-box-title">MÁY IN</p>
+                                    <ul class="header__menu-box-ul">
+                                        <li class="header__menu-box-li">
+                                            <a title="HP" href="#" class="header__menu-box-a">
+                                                HP
+                                            </a>
+                                        </li>
+                                        <li class="header__menu-box-li">
+                                            <a title="Canon" href="#" class="header__menu-box-a">
+                                                Canon
+                                            </a>
+                                        </li>
+                                        <li class="header__menu-box-li">
+                                            <a title="Brother" href="#" class="header__menu-box-a">
+                                                Brother
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="header__menu-box-laptop2">
+                                    <p class="header__menu-box-title">MỨC GIÁ</p>
+                                    <ul class="header__menu-box-price-list">
+                                        <li class="header__menu-box-li">
+                                            <a title = "Dưới 5 triệu" href="#" class="header__menu-box-a">
+                                                Dưới 5 triệu
+                                            </a>
+                                        </li>
+                                        <li class="header__menu-box-li">
+                                            <a title = "Từ 5 - 10 triệu" href="#" class="header__menu-box-a">
+                                                Từ 5 - 10 triệu
+                                            </a>
+                                        </li>
+                                        <li class="header__menu-box-li">
+                                            <a title = "Từ 10 - 15 triệu" href="#" class="header__menu-box-a">
+                                                Từ 10 - 15 triệu
+                                            </a>
+                                        </li>
+                                        <li class="header__menu-box-li">
+                                            <a title = "Từ 15 - 20 triệu" href="#" class="header__menu-box-a">
+                                                Từ 15 - 20 triệu
+                                            </a>
+                                        </li>
+                                        <li class="header__menu-box-li">
+                                            <a title = "Từ 20 - 25 triệu" href="#" class="header__menu-box-a">
+                                                Từ 20 - 25 triệu
+                                            </a>
+                                        </li>
+                                        <li class="header__menu-box-li">
+                                            <a title = "Từ 25 - 30 triệu" href="#" class="header__menu-box-a">
+                                                Từ 25 - 30 triệu
+                                            </a>
+                                        </li>
+                                        <li class="header__menu-box-li">
+                                            <a title = "" href="#" class="header__menu-box-a">
+                                                Trên 30 triệu
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="header__menu-item">
+                            <a href="./mainapple.html" class="header__menu-link">
+                                <i style="font-size: 2.2rem;" class="header__menu-icon fab fa-apple"></i>
+                                <span>APPLE</span>
+                            </a>
+                            <div class="header__menu-box">
+                                <div class="header__menu-box-apple1">
+                                    <p class="header__menu-box-title">CÁC SẢN PHẨM APPLE</p>
+                                    <ul class="header__menu-box-ul">
+                                        <li class="header__menu-box-li">
+                                            <a title="iPhone" href="#" class="header__menu-box-a">
+                                                iPhone
+                                            </a>
+                                        </li>
+                                        <li class="header__menu-box-li">
+                                            <a title="iPad" href="#" class="header__menu-box-a">
+                                                iPad
+                                            </a>
+                                        </li>
+                                        <li class="header__menu-box-li">
+                                            <a title="Macbook" href="#" class="header__menu-box-a">
+                                                Macbook
+                                            </a>
+                                        </li>
+                                        <li class="header__menu-box-li">
+                                            <a title="Apple Watch" href="#" class="header__menu-box-a">
+                                                Apple Watch
+                                            </a>
+                                        </li>
+                                        <li class="header__menu-box-li">
+                                            <a title="Apple Tai Nghe" href="#" class="header__menu-box-a">
+                                                Apple Tai Nghe
+                                            </a>
+                                        </li>
+                                        <li class="header__menu-box-li">
+                                            <a title="iMac" href="#" class="header__menu-box-a">
+                                                iMac
+                                            </a>
+                                        </li>
+                                        <li class="header__menu-box-li">
+                                            <a title="Mac Mini" href="#" class="header__menu-box-a">
+                                                Mac Mini
+                                            </a>
+                                        </li>
+                                        <li class="header__menu-box-li">
+                                            <a title="Sạc & Cáp" href="#" class="header__menu-box-a">
+                                                Sạc & Cáp
+                                            </a>
+                                        </li>
+                                        <li class="header__menu-box-li">
+                                            <a title="Ốp lưng & Bao da" href="#" class="header__menu-box-a">
+                                                Ốp lưng & Bao da
+                                            </a>
+                                        </li>
+                                        <li class="header__menu-box-li">
+                                            <a title="Apple TV" href="#" class="header__menu-box-a">
+                                                Apple TV
+                                            </a>
+                                        </li>
+                                        <li class="header__menu-box-li">
+                                            <a title="Chuột và Trackpad" href="#" class="header__menu-box-a">
+                                                Chuột và Trackpad
+                                            </a>
+                                        </li>
+                                        <li class="header__menu-box-li">
+                                            <a title="Bàn phím" href="#" class="header__menu-box-a">
+                                                Bàn phím
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="header__menu-box-apple2">
+                                    <p class="header__menu-box-title">BÁN CHẠY NHẤT</p>
+                                        <ul class="header__menu-box3-bestsell">
+                                            <li class="header__menu-box3-bestsell-item">
+                                                <a href="#" class="header__menu-box3-bestsell-link">
+                                                    <img src="./assets/images/637393169370871358_ip-11-dd.png" alt="iPhone 11 64 GB" class="header__menu-box3-bestsell-image">
+                                                </a>
+                                                <div>
+                                                    <a href="#" class="header__menu-box3-bestsell-link">iPhone 11 64 GB</a>
+                                                    <p class = "price">16.390.000 ₫</p>
+                                                </div>
+                                            </li>
+                                            <li class="header__menu-box3-bestsell-item">
+                                                <a href="#" class="header__menu-box3-bestsell-link">
+                                                    <img src="./assets/images/637341201120370331_oppo-reno4-tim-dd-st.png" alt="iPad 10.2 2020 Wi-Fi 32GB" class="header__menu-box3-bestsell-image">
+                                                </a>
+                                                <div>
+                                                    <a href="#" class="header__menu-box3-bestsell-link">iPad 10.2 2020 Wi-Fi 32GB</a>
+                                                    <p class="price">8.990.000 ₫</p>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                </div>
+                                <div class="header__menu-box-apple3">
+                                    <a title="Macbook H4" href="#" class="header__menu-box-a">
+                                        <img class="header__menu-box-apple3-img" src="./assets/images/637473553954390327_F_H4_248x248.png" alt="Macbook H4">
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="header__menu-item">
+                            <a href="./mainwatch.html" class="header__menu-link">
+                                <i class="header__menu-icon far fa-clock"></i>
+                                <span>ĐỒNG HỒ</span>
+                            </a>
+                        </li>
+                        <li class="header__menu-item">
+                            <a href="#" class="header__menu-link">
+                                <i class="header__menu-icon fas fa-headphones"></i>
+                                <span>PHỤ KIỆN</span>
+                            </a>
+                            <div class="header__menu-box">
+                                <div class="header__menu-box-Accessories1">
+                                    <p class="header__menu-box-title">CÁC SẢN PHẨM PHỤ KIỆN</p>
+                                    <ul class="header__menu-box-ul">
+                                        <li class="header__menu-box-li">
+                                            <a title="Bao da ốp lưng" href="#" class="header__menu-box-a">
+                                                Bao da ốp lưng
+                                            </a>
+                                        </li>
+                                        <li class="header__menu-box-li">
+                                            <a title="Sạc dự phòng" href="#" class="header__menu-box-a">
+                                                Sạc dự phòng
+                                            </a>
+                                        </li>
+                                        <li class="header__menu-box-li">
+                                            <a title="Thẻ nhớ" href="#" class="header__menu-box-a">
+                                                Thẻ nhớ
+                                            </a>
+                                        </li>
+                                        <li class="header__menu-box-li">
+                                            <a title="Phụ kiện Apple" href="#" class="header__menu-box-a">
+                                                Phụ kiện Apple
+                                            </a>
+                                        </li>
+                                        <li class="header__menu-box-li">
+                                            <a title="Miếng dán màn hình" href="#" class="header__menu-box-a">
+                                                Miếng dán màn hình
+                                            </a>
+                                        </li>
+                                        <li class="header__menu-box-li">
+                                            <a title="Tai nghe" href="#" class="header__menu-box-a">
+                                                Tai nghe
+                                            </a>
+                                        </li>
+                                        <li class="header__menu-box-li">
+                                            <a title="Loa" href="#" class="header__menu-box-a">
+                                                Loa
+                                            </a>
+                                        </li>
+                                        <li class="header__menu-box-li">
+                                            <a title="USB - Ổ cứng" href="#" class="header__menu-box-a">
+                                                USB - Ổ cứng
+                                            </a>
+                                        </li>
+                                        <li class="header__menu-box-li">
+                                            <a title="Sạc cáp" href="#" class="header__menu-box-a">
+                                                Sạc cáp
+                                            </a>
+                                        </li>
+                                        <li class="header__menu-box-li">
+                                            <a title="Chuột" href="#" class="header__menu-box-a">
+                                                Chuột
+                                            </a>
+                                        </li>
+                                        <li class="header__menu-box-li">
+                                            <a title="Ba lô - Túi xách" href="#" class="header__menu-box-a">
+                                                Ba lô - Túi xách
+                                            </a>
+                                        </li>
+                                        <li class="header__menu-box-li">
+                                            <a title="TV BOX" href="#" class="header__menu-box-a">
+                                                TV BOX
+                                            </a>
+                                        </li>
+                                        <li class="header__menu-box-li">
+                                            <a title="Phụ kiện khác" href="#" class="header__menu-box-a">
+                                                Phụ kiện khác
+                                            </a>
+                                        </li>
+                                        <li class="header__menu-box-li">
+                                            <a title="Bàn phím" href="#" class="header__menu-box-a">
+                                                Bàn phím
+                                            </a>
+                                        </li>
+                                        <li class="header__menu-box-li">
+                                            <a title="Phụ kiện cũ" href="#" class="header__menu-box-a">
+                                                Phụ kiện cũ
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="header__menu-box-Accessories2">
+                                    <p class="header__menu-box-title">BÁN CHẠY NHẤT</p>
+                                    <ul class="header__menu-box3-bestsell">
+                                        <li class="header__menu-box3-bestsell-item">
+                                            <a href="#" class="header__menu-box3-bestsell-link">
+                                                <img class="header__menu-box-Accessories2-icon" src="./assets/images/636963759454365620_HASP-00554636-dd-1.png" alt="iPhone 11 64 GB" class="header__menu-box3-bestsell-image">
+                                            </a>
+                                            <div>
+                                                <a href="#" class="header__menu-box3-bestsell-link">Combo Loa Bluetooth Karaoke i.value F12-65N Nhựa đen + Mic không dây</a>
+                                                <p class = "price">2.790.000 ₫</p>
+                                            </div>
+                                        </li>
+                                        <li class="header__menu-box3-bestsell-item">
+                                            <a href="#" class="header__menu-box3-bestsell-link">
+                                                <img class="header__menu-box-Accessories2-icon" src="./assets/images/637146111983706760_Trip10000_Black.jpg" alt="iPad 10.2 2020 Wi-Fi 32GB" class="header__menu-box3-bestsell-image">
+                                            </a>
+                                            <div>
+                                                <a href="#" class="header__menu-box3-bestsell-link">Pin sạc dự phòng Quick Charge Li-polymer 10000mAH UMETRAVEL TRIP10000</a>
+                                                <p class="price">538.300 ₫</p>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="header__menu-box-Accessories3">
+                                    <a href="#"><img class="header__menu-box-Accessories3-img" src="./assets/images/637454533465311325_F-H4_248x248.png" alt=""></a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="header__menu-item">
+                            <a href="./oldproduct.html" class="header__menu-link">
+                                <i class="header__menu-icon fas fa-redo-alt"></i>
+                                <span>MÁY CŨ GIÁ RẼ</span>
+                            </a>
+                        </li>
+                        <li class="header__menu-item">
+                            <a href="./maintablet.html" class="header__menu-link">
+                                <i class="header__menu-icon fas fa-tablet-alt"></i>
+                                <span>TABLET</span>
+                            </a>
+                            <div class="header__menu-box">
+                                <div class="header__menu-box-tablet1">
+                                    <p class="header__menu-box-title">HÃNG SẢN XUẤT</p>
+                                    <ul class="header__menu-box-ul">
+                                        <li class="header__menu-box-li">
+                                            <a title="Apple (iPad)" href="#" class="header__menu-box-a">
+                                                Apple (iPad)
+                                            </a>
+                                        </li>
+                                        <li class="header__menu-box-li">
+                                            <a title="Samsung" href="#" class="header__menu-box-a">
+                                                Samsung
+                                            </a>
+                                        </li>
+                                        <li class="header__menu-box-li">
+                                            <a title="Lenovo" href="#" class="header__menu-box-a">
+                                                Lenovo
+                                            </a>
+                                        </li>
+                                        <li class="header__menu-box-li">
+                                            <a title="Masstel" href="#" class="header__menu-box-a">
+                                                Masstel
+                                            </a>
+                                        </li>
+                                        <li class="header__menu-box-li">
+                                            <a title="" href="#" class="header__menu-box-a">
+                                                Huawei
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="header__menu-box-tablet2">
+                                    <p class="header__menu-box-title">
+                                        MỨC GIÁ
+                                    </p>
+                                    <ul class="header__menu-price">
+                                        <li class="header__menu-box-li">
+                                            <a title="Dưới 2 triệu" href="#" class="header__menu-box-a">
+                                                Dưới 2 triệu
+                                            </a>
+                                        </li>
+                                        <li class="header__menu-box-li">
+                                            <a title="Từ 2 - 5 triệu" href="#" class="header__menu-box-a">
+                                                Từ 2 - 5 triệu
+                                            </a>
+                                        </li>
+                                        <li class="header__menu-box-li">
+                                            <a title="Từ 5 - 8 triệu" href="#" class="header__menu-box-a">
+                                                Từ 5 - 8 triệu
+                                            </a>
+                                        </li>
+                                        <li class="header__menu-box-li">
+                                            <a title="Trên 8 triệu" href="#" class="header__menu-box-a">
+                                                Trên 8 triệu
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="header__meneu-box-tablet3">
+                                    <p class="header__menu-box-title">BÁN CHẠY NHẤT</p>
+                                        <ul class="header__menu-box3-bestsell">
+                                            <li class="header__menu-box3-bestsell-item">
+                                                <a href="#" class="header__menu-box3-bestsell-link">
+                                                    <img src="./assets/images/637232548611987631_ss-tab-s6-lite-xam-dd.png" alt="iPhone 11 64 GB" class="header__menu-box3-bestsell-image">
+                                                </a>
+                                                <div>
+                                                    <a href="#" class="header__menu-box3-bestsell-link">Samsung Galaxy Tab S6 Lite</a>
+                                                    <p class = "price">9.990.000 ₫</p>
+                                                </div>
+                                            </li>
+                                            <li class="header__menu-box3-bestsell-item">
+                                                <a href="#" class="header__menu-box3-bestsell-link">
+                                                    <img src="./assets/images/636797950350030000_Huawei-MediaPad-T5-10.png" alt="iPad 10.2 2020 Wi-Fi 32GB" class="header__menu-box3-bestsell-image">
+                                                </a>
+                                                <div>
+                                                    <a href="#" class="header__menu-box3-bestsell-link">Huawei MediaPad T5 10</a>
+                                                    <p class="price">4.990.000 ₫</p>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                </div>
+                                <div class="header__meneu-box-tablet4">
+                                    <a href="#"><img class="header__meneu-box-tablet4-img" src="./assets/images/637477771138462648_F-H4_248x248.png" alt=""></a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="header__menu-item">
+                            <a href="./sim.html" class="header__menu-link">
+                                <i class="header__menu-icon fas fa-sim-card"></i>
+                                <span>SIM & THẺ</span>
+                            </a>
+                        </li>
+                        <li class="header__menu-item header__menu-item-sale-off">
+                            <a href="./sale.html" class="header__menu-link">
+                                <i class="header__menu-icon fas fa-cart-arrow-down"></i>
+                                <span>KHUYẾN MÃI</span>
+                            </a>
+                            <ul class="header__menu-sale-off">
+                                <li class="header__menu-sale-off-item">
+                                    <a href="#" class="header__menu-sale-off-link">
+                                        Thông tin trao thưởng
+                                    </a>
+                                </li>
+                                <li class="header__menu-sale-off-item">
+                                    <a href="#" class="header__menu-sale-off-link">
+                                        Tất cả khuyến mại
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="header__menu-item">
+                            <a href="#" class="header__menu-link">
+                                <i  class="header__menu-icon fas fa-piggy-bank"></i>
+                                <span>TRẢ GÓP 0%</span>
+                            </a>
+                        </li>
+                        
+                    </ul>
+                </nav>
+            </div>
+        </div>   
+              
+        </header>
+        <div class="container">
+            <div class="router">
+                <div class="grid wide">
+                    <a href="./index.html" class="link-with-border link-with-border-custom">Trang chủ</a>
+                    <a href="./oldproduct.html" class="link-with-border link-with-border-custom">Máy cũ giá rẽ</a>
+                    <span class="current-page">Điện thoại</span>
+                </div>
+            </div>
+            <div class="grid wide">
+                <div class="slider-main-mobile slider-main-mobile-multi-slide hide-on-mobile-tablet">
+                    <a href="#" class="slider-link">
+                        <img src="./assets/images/637476310943906578_F-C3_590x120.png" alt="Combo làm việc" class="slider-img">
+                    </a>
+                    <a href="#" class="slider-link">
+                        <img src="./assets/images/637457135523231868_C3 A50 ver2.png" alt="Banner Laptop Gaming tháng 1" class="slider-img">
+                    </a>
+                    <a href="#" class="slider-link">
+                        <img src="./assets/images/637305079230621677_F-C3_590x120.png" alt="Khai trương trung tâm Laptop" class="slider-img">
+                    </a>
+                    <a href="#" class="slider-link">
+                        <img src="./assets/images/637424119001685653_C1.png" alt="Banner Asus tháng 1" class="slider-img">
+                    </a>
+                </div>
+                <div class="slider-main-mobile slider-main-on-mobile">
+                    <a href="#" class="slider-link">
+                        <img src="./assets/images/637476310943906578_F_M1_640x250.png" alt="Combo làm việc" class="slider-img">
+                    </a>
+                    <a href="#" class="slider-link">
+                        <img src="./assets/images/637457130834797032_F_M1_640x250 a50.png" alt="Banner Laptop Gaming tháng 1" class="slider-img">
+                    </a>
+                    <a href="#" class="slider-link">
+                        <img src="./assets/images/637305079240421674_F_M1_640x250.png" alt="Khai trương trung tâm Laptop" class="slider-img">
+                    </a>
+                    <a href="#" class="slider-link">
+                        <img src="./assets/images/637424119001841789_M1.png" alt="Banner Asus tháng 1" class="slider-img">
+                    </a>
+                </div>
+                <div class="main-container">
+                    <div class="main-container-menu">
+                        <ul class="main-container-menu-list">
+                            <li class="main-container-menu-item">
+                                <a href="./oldproduct.html" class="main-container-menu-link">
+                                    <i class="main-container-menu-icon fas fa-star"></i>
+                                    <span class="main-container-menu-label">Nổi bậc</span>
+                                </a>
+                            </li>
+                            <li class="main-container-menu-item active">
+                                <a href="./oldsmartphone.html" class="main-container-menu-link">
+                                    <i class="main-container-menu-icon fas fa-mobile-alt"></i>
+                                    <span class="main-container-menu-label">Điện thoại cũ</span>
+                                </a>
+                            </li>
+                            <li class="main-container-menu-item">
+                                <a href="./oldlaptop.html" class="main-container-menu-link">
+                                    <i class="fas main-container-menu-icon fa-laptop"></i>
+                                    <span class="main-container-menu-label">Laptop cũ</span>
+                                </a>
+                            </li>
+                            <li class="main-container-menu-item">
+                                <a href="./oldtablet.html" class="main-container-menu-link">
+                                    <i class="fas main-container-menu-icon fa-tablet-alt"></i>
+                                    <span class="main-container-menu-label">Máy tính bảng cũ</span>
+                                </a>
+                            </li>
+                            <li class="main-container-menu-item">
+                                <a href="oldwatch.html" class="main-container-menu-link">
+                                    <i class="far main-container-menu-icon fa-clock"></i>
+                                    <span class="main-container-menu-label">Đồng hồ cũ</span>
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="main-container-menu-dropdown hide-on-mobile-tablet">
+                            <span class="main-container-menu-dropdown-label">
+                                Tỉnh thành:
+                            </span>
+                            <div class="app-container-main-apple-header">
+                                <div class="drop-down-list-btn drop-down-list-btn-tq drop-down-list-btn-pc">Toàn quốc
+                                    <ul class="drop-down-list">
+                                        <li class="drop-down-item">
+                                            <span  class="active drop-down-info">
+                                                An Giang
+                                            </span>
+                                        </li>
+                                        <li class="drop-down-item">
+                                            <span class="drop-down-info">
+                                                Bình Dương
+                                            </span>
+                                        </li>
+                                        <li class="drop-down-item">
+                                            <span class="drop-down-info">
+                                                Bình Định
+                                            </span>
+                                        </li>
+                                        <li class="drop-down-item">
+                                            <span class="drop-down-info">
+                                                Bắc Giang
+                                            </span>
+                                        </li>
+                                        <li class="drop-down-item">
+                                            <span class="drop-down-info">
+                                                Bắc Kạn
+                                            </span>
+                                        </li>
+                                        <li class="drop-down-item">
+                                            <span class="drop-down-info">
+                                                Bạc Liêu
+                                            </span>
+                                        </li>
+                                        <li class="drop-down-item">
+                                            <span class="drop-down-info">
+                                                Bắc Ninh
+                                            </span>
+                                        </li>
+                                        <li class="drop-down-item">
+                                            <span class="drop-down-info">
+                                                Bình Phước
+                                            </span>
+                                        </li>
+                                        <li class="drop-down-item">
+                                            <span class="drop-down-info">
+                                                Bà Rịa - Vũng Tàu
+                                            </span>
+                                        </li>
+                                        <li class="drop-down-item">
+                                            <span class="drop-down-info">
+                                                Bến Tre
+                                            </span>
+                                        </li>
+                                        <li class="drop-down-item">
+                                            <span class="drop-down-info">
+                                                Bình Thuận
+                                            </span>
+                                        </li>
+                                        <li class="drop-down-item">
+                                            <span class="drop-down-info">
+                                                Cao Bằng
+                                            </span>
+                                        </li>
+                                        <li class="drop-down-item">
+                                            <span class="drop-down-info">
+                                                Cà Mau
+                                            </span>
+                                        </li>
+                                        <li class="drop-down-item">
+                                            <span class="drop-down-info">
+                                                Cần Thơ
+                                            </span>
+                                        </li>
+                                        <li class="drop-down-item">
+                                            <span class="drop-down-info">
+                                                Điện Biên
+                                            </span>
+                                        </li>
+                                        <li class="drop-down-item">
+                                            <span class="drop-down-info">
+                                                Đắk Lắk
+                                            </span>
+                                        </li>
+                                        <li class="drop-down-item">
+                                            <span class="drop-down-info">
+                                                Đà Năng
+                                            </span>
+                                        </li>
+                                        <li class="drop-down-item">
+                                            <span class="drop-down-info">
+                                                Đồng Nai
+                                            </span>
+                                        </li>
+                                        <li class="drop-down-item">
+                                            <span class="drop-down-info">
+                                                Đắk Nông
+                                            </span>
+                                        </li>
+                                        <li class="drop-down-item">
+                                            <span class="drop-down-info">
+                                                Đồng Tháp
+                                            </span>
+                                        </li>
+                                        <li class="drop-down-item">
+                                            <span class="drop-down-info">
+                                                Gia Lai
+                                            </span>
+                                        </li>
+                                        <li class="drop-down-item">
+                                            <span class="drop-down-info">
+                                                Hòa Bình
+                                            </span>
+                                        </li>
+                                        <li class="drop-down-item">
+                                            <span class="drop-down-info">
+                                                Hồ Chí Minh
+                                            </span>
+                                        </li>
+                                        <li class="drop-down-item">
+                                            <span class="drop-down-info">
+                                                Hải Dương
+                                            </span>
+                                        </li>
+                                        <li class="drop-down-item">
+                                            <span class="drop-down-info">
+                                                Hà Giang
+                                            </span>
+                                        </li>
+                                        <li class="drop-down-item">
+                                            <span class="drop-down-info">
+                                                Hà Nội
+                                            </span>
+                                        </li>
+                                        <li class="drop-down-item">
+                                            <span class="drop-down-info">
+                                                Hà Nam
+                                            </span>
+                                        </li>
+                                        <li class="drop-down-item">
+                                            <span class="drop-down-info">
+                                                Hải Phòng
+                                            </span>
+                                        </li>
+                                        <li class="drop-down-item">
+                                            <span class="drop-down-info">
+                                                Hà Tĩnh
+                                            </span>
+                                        </li>
+                                        <li class="drop-down-item">
+                                            <span class="drop-down-info">
+                                                Thừa Thiên Huế
+                                            </span>
+                                        </li>
+                                        <li class="drop-down-item">
+                                            <span class="drop-down-info">
+                                                Hậu Giang
+                                            </span>
+                                        </li>
+                                        <li class="drop-down-item">
+                                            <span class="drop-down-info">
+                                                Hưng Yên
+                                            </span>
+                                        </li>
+                                        <li class="drop-down-item">
+                                            <span class="drop-down-info">
+                                                Kiên Giang
+                                            </span>
+                                        </li>
+                                        <li class="drop-down-item">
+                                            <span class="drop-down-info">
+                                                Khánh Hòa
+                                            </span>
+                                        </li>
+                                        <li class="drop-down-item">
+                                            <span class="drop-down-info">
+                                                Kon Tum
+                                            </span>
+                                        </li>
+                                        <li class="drop-down-item">
+                                            <span class="drop-down-info">
+                                                Long An
+                                            </span>
+                                        </li>
+                                        <li class="drop-down-item">
+                                            <span class="drop-down-info">
+                                                Lào Cai
+                                            </span>
+                                        </li>
+                                        <li class="drop-down-item">
+                                            <span class="drop-down-info">
+                                                Lai Châu
+                                            </span>
+                                        </li>
+                                        <li class="drop-down-item">
+                                            <span class="drop-down-info">
+                                                Lâm Đồng
+                                            </span>
+                                        </li>
+                                        <li class="drop-down-item">
+                                            <span class="drop-down-info">
+                                                Lạng Sơn
+                                            </span>
+                                        </li>
+                                        <li class="drop-down-item">
+                                            <span class="drop-down-info">
+                                                Nghệ An
+                                            </span>
+                                        </li>
+                                        <li class="drop-down-item">
+                                            <span class="drop-down-info">
+                                                Ninh Bình
+                                            </span>
+                                        </li>
+                                        <li class="drop-down-item">
+                                            <span class="drop-down-info">
+                                                Nam Định
+                                            </span>
+                                        </li>
+                                        <li class="drop-down-item">
+                                            <span class="drop-down-info">
+                                                Ninh Thuận
+                                            </span>
+                                        </li>
+                                        <li class="drop-down-item">
+                                            <span class="drop-down-info">
+                                                Phú Thọ
+                                            </span>
+                                        </li>
+                                        <li class="drop-down-item">
+                                            <span class="drop-down-info">
+                                                Phú Yên
+                                            </span>
+                                        </li>
+                                        <li class="drop-down-item">
+                                            <span class="drop-down-info">
+                                                Quảng Bình
+                                            </span>
+                                        </li>
+                                        <li class="drop-down-item">
+                                            <span class="drop-down-info">
+                                                Quảng Ninh
+                                            </span>
+                                        </li>
+                                        <li class="drop-down-item">
+                                            <span class="drop-down-info">
+                                                Quảng Ngãi
+                                            </span>
+                                        </li>
+                                        <li class="drop-down-item">
+                                            <span class="drop-down-info">
+                                                Quảng Nam
+                                            </span>
+                                        </li>
+                                        <li class="drop-down-item">
+                                            <span class="drop-down-info">
+                                                Quảng Trị
+                                            </span>
+                                        </li>
+                                        <li class="drop-down-item">
+                                            <span class="drop-down-info">
+                                                Sơn La
+                                            </span>
+                                        </li>
+                                        <li class="drop-down-item">
+                                            <span class="drop-down-info">
+                                                Sóc Trăng
+                                            </span>
+                                        </li>
+                                        <li class="drop-down-item">
+                                            <span class="drop-down-info">
+                                                Thái Bình
+                                            </span>
+                                        </li>
+                                        <li class="drop-down-item">
+                                            <span class="drop-down-info">
+                                                Tiền Giang
+                                            </span>
+                                        </li>
+                                        <li class="drop-down-item">
+                                            <span class="drop-down-info">
+                                                Thanh Hóa
+                                            </span>
+                                        </li>
+                                        <li class="drop-down-item">
+                                            <span class="drop-down-info">
+                                                Tây Ninh
+                                            </span>
+                                        </li>
+                                        <li class="drop-down-item">
+                                            <span class="drop-down-info">
+                                                Thái Nguyên
+                                            </span>
+                                        </li>
+                                        <li class="drop-down-item">
+                                            <span class="drop-down-info">
+                                                Tuyên Quang
+                                            </span>
+                                        </li>
+                                        <li class="drop-down-item">
+                                            <span class="drop-down-info">
+                                                Trà Vinh
+                                            </span>
+                                        </li>
+                                        <li class="drop-down-item">
+                                            <span class="drop-down-info">
+                                                Vĩnh Long
+                                            </span>
+                                        </li>
+                                        <li class="drop-down-item">
+                                            <span class="drop-down-info">
+                                                Vĩnh Phúc
+                                            </span>
+                                        </li>
+                                        <li class="drop-down-item">
+                                            <span class="drop-down-info">
+                                                Yên Bái
+                                            </span>
+                                        </li>
+                                        
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main-container-title">
+                        ĐIỆN THOẠI CŨ GIÁ RẺ    
+                    </div>
+                    <div class="category-box-old-product">
+                        <div class="category-box-old-product-header">
+                            <div class="category-box-old-product-sort-list">
+                                <div class="drop-down-list-btn drop-down-list-btn-pc hide-on-mobile-tablet">Giá cao đến thấp
+                                    <ul class="drop-down-list">
+                                        <li class="drop-down-item">
+                                            <span  class=" drop-down-info">
+                                                Giá thấp đến cao
+                                            </span>
+                                        </li>
+                                        <li class="drop-down-item active">
+                                            <span  class=" drop-down-info">
+                                                Giá cao đến thấp
+                                            </span>
+                                        </li>
+                                        <li class="drop-down-item">
+                                            <span  class=" drop-down-info">
+                                                Sắp xếp theo tên
+                                            </span>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="drop-down-list-btn drop-down-list-btn-pc">Chọn hãng
+                                    <ul class="drop-down-list">
+                                        <li class="drop-down-item active">
+                                            <span  class=" drop-down-info">
+                                                Chọn hãng
+                                            </span>
+                                        </li>
+                                        <li class="drop-down-item">
+                                            <span  class=" drop-down-info">
+                                                Apple (iPhone)
+                                            </span>
+                                        </li>
+                                        <li class="drop-down-item">
+                                            <span  class=" drop-down-info">
+                                                Energizer
+                                            </span>
+                                        </li>
+                                        <li class="drop-down-item">
+                                            <span  class=" drop-down-info">
+                                                Huawei
+                                            </span>
+                                        </li>
+                                        <li class="drop-down-item">
+                                            <span  class=" drop-down-info">
+                                                itel
+                                            </span>
+                                        </li>
+                                        <li class="drop-down-item">
+                                            <span  class=" drop-down-info">
+                                                Masstel
+                                            </span>
+                                        </li>
+                                        <li class="drop-down-item">
+                                            <span  class=" drop-down-info">
+                                                Nokia
+                                            </span>
+                                        </li>
+                                        <li class="drop-down-item">
+                                            <span  class=" drop-down-info">
+                                                OPPO
+                                            </span>
+                                        </li>
+                                        <li class="drop-down-item">
+                                            <span  class=" drop-down-info">
+                                                Realme
+                                            </span>
+                                        </li>
+                                        <li class="drop-down-item">
+                                            <span  class=" drop-down-info">
+                                                Samsung
+                                            </span>
+                                        </li>
+                                        <li class="drop-down-item">
+                                            <span  class=" drop-down-info">
+                                                Vivo
+                                            </span>
+                                        </li>
+                                        <li class="drop-down-item">
+                                            <span  class=" drop-down-info">
+                                                Vsmart
+                                            </span>
+                                        </li>
+                                        <li class="drop-down-item">
+                                            <span  class=" drop-down-info">
+                                                Wiko
+                                            </span>
+                                        </li>
+                                        <li class="drop-down-item">
+                                            <span  class=" drop-down-info">
+                                                Xiaomi
+                                            </span>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="drop-down-list-btn drop-down-list-btn-pc l-0">Chọn giá
+                                    <ul class="drop-down-list">
+                                        <li class="drop-down-item active">
+                                            <span  class=" drop-down-info">
+                                                Chọn giá
+                                            </span>
+                                        </li>
+                                        <li class="drop-down-item">
+                                            <span  class=" drop-down-info">
+                                                Dưới 2 triệu
+                                            </span>
+                                        </li>
+                                        <li class="drop-down-item">
+                                            <span  class=" drop-down-info">
+                                                Từ 2 - 4 triệu
+                                            </span>
+                                        </li>
+                                        <li class="drop-down-item">
+                                            <span  class=" drop-down-info">
+                                                Từ 4 - 7 triệu
+                                            </span>
+                                        </li>
+                                        <li class="drop-down-item">
+                                            <span  class=" drop-down-info">
+                                                Từ 7 - 13 triệu
+                                            </span>
+                                        </li>
+                                        <li class="drop-down-item">
+                                            <span  class=" drop-down-info">
+                                                Trên 13 triệu
+                                            </span>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="drop-down-list-btn drop-down-list-btn-pc hide-on-mobile-tablet">Chọn Khoảng giá
+                                    <ul class="drop-down-list">
+                                        <li class="drop-down-item active">
+                                            <span  class=" drop-down-info">
+                                                Chọn khoảng giá
+                                            </span>
+                                        </li>
+                                        <li class="drop-down-item">
+                                            <span  class=" drop-down-info">
+                                                Dưới 2 triệu
+                                            </span>
+                                        </li>
+                                        <li class="drop-down-item">
+                                            <span  class=" drop-down-info">
+                                                Từ 2 - 4 triệu
+                                            </span>
+                                        </li>
+                                        <li class="drop-down-item">
+                                            <span  class=" drop-down-info">
+                                                Từ 4 - 7 triệu
+                                            </span>
+                                        </li>
+                                        <li class="drop-down-item">
+                                            <span  class=" drop-down-info">
+                                                Từ 7 - 13 triệu
+                                            </span>
+                                        </li>
+                                        <li class="drop-down-item">
+                                            <span  class=" drop-down-info">
+                                                Trên 13 triệu
+                                            </span>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="nav-overlay-select-box "></div>
+                                <div class="drop-down-list-btn show-select-box-btn l-0  drop-down-list-btn-pc">
+                                    Toàn quốc
+                                    <div class="select-location-box ">
+                                        <div class="select-location-box-header">
+                                            <div class="select-location-box-title">Máy cũ giá rẽ</div>
+                                            <i class="fas select-location-box-icon fa-times"></i>
+                                        </div>
+                                        <div class="select-location-box-label">
+                                            Vui lòng chọn tỉnh thành của bạn để tìm kiếm sản phẩm chính xác & dễ dàng hơn
+                                        </div>
+                                        <div class="select-location-box-search">
+                                            <input type="text" placeholder="Nhập tỉnh thành" class="select-location-box-search-input">
+                                        </div>
+                                        <ul class="select-location-box-list">
+                                            <li class="select-location-box-item">
+                                                <a href="#" class="select-location-box-link">
+                                                    Toàn Quốc
+                                                </a>
+                                            </li>
+                                            <li class="select-location-box-item">
+                                                <a href="#" class="select-location-box-link">
+                                                    An Giang
+                                                </a>
+                                            </li>
+                                            <li class="select-location-box-item">
+                                                <a href="#" class="select-location-box-link">
+                                                    Bình Dương
+                                                </a>
+                                            </li><li class="select-location-box-item">
+                                                <a href="#" class="select-location-box-link">
+                                                    Bình Định
+                                                </a>
+                                            </li>
+                                            <li class="select-location-box-item">
+                                                <a href="#" class="select-location-box-link">
+                                                    Bắc Giang
+                                                </a>
+                                            </li>
+                                            <li class="select-location-box-item">
+                                                <a href="#" class="select-location-box-link">
+                                                    Bắc Kạn
+                                                </a>
+                                            </li><li class="select-location-box-item">
+                                                <a href="#" class="select-location-box-link">
+                                                    Bạc Liêu
+                                                </a>
+                                            </li>
+                                            <li class="select-location-box-item">
+                                                <a href="#" class="select-location-box-link">
+                                                    Bắc Ninh
+                                                </a>
+                                            </li>
+                                            <li class="select-location-box-item">
+                                                <a href="#" class="select-location-box-link">
+                                                    Bình Phước
+                                                </a>
+                                            </li><li class="select-location-box-item">
+                                                <a href="#" class="select-location-box-link">
+                                                    Bà Rịa - Vũng Tàu
+                                                </a>
+                                            </li>
+                                            <li class="select-location-box-item">
+                                                <a href="#" class="select-location-box-link">
+                                                    Bến Tre
+                                                </a>
+                                            </li>
+                                            <li class="select-location-box-item">
+                                                <a href="#" class="select-location-box-link">
+                                                    Ninh Thuận
+                                                </a>
+                                            </li><li class="select-location-box-item">
+                                                <a href="#" class="select-location-box-link">
+                                                    Cao Bằng
+                                                </a>
+                                            </li>
+                                            <li class="select-location-box-item">
+                                                <a href="#" class="select-location-box-link">
+                                                    Cà Mau
+                                                </a>
+                                            </li>
+                                            <li class="select-location-box-item">
+                                                <a href="#" class="select-location-box-link">
+                                                    Cần Thơ
+                                                </a>
+                                            </li><li class="select-location-box-item">
+                                                <a href="#" class="select-location-box-link">
+                                                    Điện Biên
+                                                </a>
+                                            </li>
+                                            <li class="select-location-box-item">
+                                                <a href="#" class="select-location-box-link">
+                                                    Đắk Lắk
+                                                </a>
+                                            </li>
+                                            <li class="select-location-box-item">
+                                                <a href="#" class="select-location-box-link">
+                                                    Đà Nẵng
+                                                </a>
+                                            </li><li class="select-location-box-item">
+                                                <a href="#" class="select-location-box-link">
+                                                    Đồng Nai
+                                                </a>
+                                            </li>
+                                            <li class="select-location-box-item">
+                                                <a href="#" class="select-location-box-link">
+                                                    Đắk Nông
+                                                </a>
+                                            </li>
+                                            <li class="select-location-box-item">
+                                                <a href="#" class="select-location-box-link">
+                                                    Đồng Tháp
+                                                </a>
+                                            </li><li class="select-location-box-item">
+                                                <a href="#" class="select-location-box-link">
+                                                    Gia Lai
+                                                </a>
+                                            </li>
+                                            <li class="select-location-box-item">
+                                                <a href="#" class="select-location-box-link">
+                                                    Hòa Bình
+                                                </a>
+                                            </li>
+                                            <li class="select-location-box-item">
+                                                <a href="#" class="select-location-box-link">
+                                                    Hồ Chí Minh
+                                                </a>
+                                            </li><li class="select-location-box-item">
+                                                <a href="#" class="select-location-box-link">
+                                                    Hải Dương
+                                                </a>
+                                            </li>
+                                            <li class="select-location-box-item">
+                                                <a href="#" class="select-location-box-link">
+                                                    Hà Giang
+                                                </a>
+                                            </li>
+                                            <li class="select-location-box-item">
+                                                <a href="#" class="select-location-box-link">
+                                                    Hà Nội
+                                                </a>
+                                            </li><li class="select-location-box-item">
+                                                <a href="#" class="select-location-box-link">
+                                                    Hà Nam
+                                                </a>
+                                            </li>
+                                            <li class="select-location-box-item">
+                                                <a href="#" class="select-location-box-link">
+                                                    Hải Phòng
+                                                </a>
+                                            </li>
+                                            <li class="select-location-box-item">
+                                                <a href="#" class="select-location-box-link">
+                                                    Hà Tĩnh
+                                                </a>
+                                            </li><li class="select-location-box-item">
+                                                <a href="#" class="select-location-box-link">
+                                                    Thừa Thiên Huế
+                                                </a>
+                                            </li>
+                                            <li class="select-location-box-item">
+                                                <a href="#" class="select-location-box-link">
+                                                    Hậu Giang
+                                                </a>
+                                            </li>
+                                            <li class="select-location-box-item">
+                                                <a href="#" class="select-location-box-link">
+                                                    Hưng Yên
+                                                </a>
+                                            </li><li class="select-location-box-item">
+                                                <a href="#" class="select-location-box-link">
+                                                    Kiên Giang
+                                                </a>
+                                            </li>
+                                            <li class="select-location-box-item">
+                                                <a href="#" class="select-location-box-link">
+                                                    Khánh Hòa
+                                                </a>
+                                            </li>
+                                            <li class="select-location-box-item">
+                                                <a href="#" class="select-location-box-link">
+                                                    Kon Tum
+                                                </a>
+                                            </li><li class="select-location-box-item">
+                                                <a href="#" class="select-location-box-link">
+                                                    Long An
+                                                </a>
+                                            </li>
+                                            <li class="select-location-box-item">
+                                                <a href="#" class="select-location-box-link">
+                                                    Lào Cai
+                                                </a>
+                                            </li>
+                                            <li class="select-location-box-item">
+                                                <a href="#" class="select-location-box-link">
+                                                    Lai Châu
+                                                </a>
+                                            </li><li class="select-location-box-item">
+                                                <a href="#" class="select-location-box-link">
+                                                    Lâm Đồng
+                                                </a>
+                                            </li>
+                                            <li class="select-location-box-item">
+                                                <a href="#" class="select-location-box-link">
+                                                    Lạng Sơn
+                                                </a>
+                                            </li>
+                                            <li class="select-location-box-item">
+                                                <a href="#" class="select-location-box-link">
+                                                    Nghệ An
+                                                </a>
+                                            </li><li class="select-location-box-item">
+                                                <a href="#" class="select-location-box-link">
+                                                    Ninh Bình
+                                                </a>
+                                            </li>
+                                            <li class="select-location-box-item">
+                                                <a href="#" class="select-location-box-link">
+                                                    Nam Định
+                                                </a>
+                                            </li>
+                                            <li class="select-location-box-item">
+                                                <a href="#" class="select-location-box-link">
+                                                    Ninh Thuận
+                                                </a>
+                                            </li><li class="select-location-box-item">
+                                                <a href="#" class="select-location-box-link">
+                                                    Phú Thọ
+                                                </a>
+                                            </li>
+                                            <li class="select-location-box-item">
+                                                <a href="#" class="select-location-box-link">
+                                                    Phú Yên
+                                                </a>
+                                            </li>
+                                            <li class="select-location-box-item">
+                                                <a href="#" class="select-location-box-link">
+                                                    Quảng Bình
+                                                </a>
+                                            </li><li class="select-location-box-item">
+                                                <a href="#" class="select-location-box-link">
+                                                    Quảng Ninh
+                                                </a>
+                                            </li>
+                                            <li class="select-location-box-item">
+                                                <a href="#" class="select-location-box-link">
+                                                    Quang Ngãi
+                                                </a>
+                                            </li>
+                                            <li class="select-location-box-item">
+                                                <a href="#" class="select-location-box-link">
+                                                    Quảng Nam
+                                                </a>
+                                            </li><li class="select-location-box-item">
+                                                <a href="#" class="select-location-box-link">
+                                                    Quảng Trị
+                                                </a>
+                                            </li>
+                                            <li class="select-location-box-item">
+                                                <a href="#" class="select-location-box-link">
+                                                    Sơn La
+                                                </a>
+                                            </li>
+                                            <li class="select-location-box-item">
+                                                <a href="#" class="select-location-box-link">
+                                                    Sóc Trăng
+                                                </a>
+                                            </li><li class="select-location-box-item">
+                                                <a href="#" class="select-location-box-link">
+                                                    Thái Bình
+                                                </a>
+                                            </li>
+                                            <li class="select-location-box-item">
+                                                <a href="#" class="select-location-box-link">
+                                                    Tiền Giang
+                                                </a>
+                                            </li>
+                                            <li class="select-location-box-item">
+                                                <a href="#" class="select-location-box-link">
+                                                    Thanh Hóa
+                                                </a>
+                                            </li><li class="select-location-box-item">
+                                                <a href="#" class="select-location-box-link">
+                                                    Tây Ninh
+                                                </a>
+                                            </li>
+                                            <li class="select-location-box-item">
+                                                <a href="#" class="select-location-box-link">
+                                                    Thái Nguyên
+                                                </a>
+                                            </li>
+                                            <li class="select-location-box-item">
+                                                <a href="#" class="select-location-box-link">
+                                                    Tuyên Quang
+                                                </a>
+                                            </li><li class="select-location-box-item">
+                                                <a href="#" class="select-location-box-link">
+                                                    Trà Vinh
+                                                </a>
+                                            </li>
+                                            <li class="select-location-box-item">
+                                                <a href="#" class="select-location-box-link">
+                                                    Vĩnh Long
+                                                </a>
+                                            </li>
+                                            <li class="select-location-box-item">
+                                                <a href="#" class="select-location-box-link">
+                                                    Vĩnh Phúc
+                                                </a>
+                                            </li><li class="select-location-box-item">
+                                                <a href="#" class="select-location-box-link">
+                                                    Yên Bái
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="category-box-old-product-search hide-on-mobile-tablet">
+                                <input type="text" placeholder="Tìm kiếm sản phẩm bạn yêu thích..." class="category-box-old-product-search-input">
+                                <button class="category-box-old-product-search-button" type="button">
+                                    <i class="fas fa-search category-box-old-product-search-icon"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="row no-gutters old-product-box">
+                            <div class="col l-2-4 m-6 c-6">
+                                <div class="old-product-card">
+                                    <a href="#" class="old-product-card-link">
+                                        <img src="./assets/images/637102754985873870_samsung-galaxy-fold-den-0.png" alt="Samsung Galaxy Fold" class="old-product-card-img">
+                                        <div class="old-product-card-count">1 máy</div>
+                                        <div class="old-product-card-detail">
+                                            <span class="old-product-card-detail-label">Còn 1 máy tại: </span>
+                                            Hồ Chí Minh
+                                        </div>
+                                    </a>
+                                    <div class="old-product-card-info">
+                                        <div class="old-product-card-name">
+                                            <a href="#" class="old-product-card-name-link">Samsung Galaxy Fold</a>
+                                        </div>
+                                        <div class="old-product-card-price-old">
+                                            Giá từ: 
+                                            <span class="old-product-price">39.996.000đ</span>
+                                        </div>
+                                        <div class="old-product-card-price-new">
+                                            Giá máy mới: 50.000.000 đ
+                                        </div>
+                                        <div class="old-product-card-save">
+                                            Tiết kiệm: 10.004.000 đ (20%)
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                            <div class="col l-2-4 m-6 c-6">
+                                <div class="old-product-card">
+                                    <a href="#" class="old-product-card-link">
+                                        <img src="./assets/images/637348296150310219_ss-z-fold-2-gold-1.png" alt="Samsung Galaxy Z Fold2 5G" class="old-product-card-img">
+                                        <div class="old-product-card-count">1 máy</div>
+                                        <div class="old-product-card-detail">
+                                            <span class="old-product-card-detail-label">Còn 1 máy tại: </span>
+                                            Hà Nội
+                                        </div>
+                                    </a>
+                                    <div class="old-product-card-info">
+                                        <div class="old-product-card-name">
+                                            <a href="#" class="old-product-card-name-link">Samsung Galaxy Z Fold2 5G</a>
+                                        </div>
+                                        <div class="old-product-card-price-old">
+                                            Giá từ: 
+                                            <span class="old-product-price">39.501.000đ</span>
+                                        </div>
+                                        <div class="old-product-card-price-new">
+                                            Giá máy mới: 50.000.000 đ
+                                        </div>
+                                        <div class="old-product-card-save">
+                                            Tiết kiệm: 10.499.000 đ (21%)
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                            <div class="col l-2-4 m-6 c-6">
+                                <div class="old-product-card">
+                                    <a href="#" class="old-product-card-link">
+                                        <img src="./assets/images/637037672778888750_11-pro-vang.png" alt="iPhone 11 Pro 512GB" class="old-product-card-img">
+                                        <div class="old-product-card-count">2 máy</div>
+                                        <div class="old-product-card-detail">
+                                            <span class="old-product-card-detail-label">Còn 2 máy tại: </span>
+                                            Bắc Ninh, Hà Nội
+                                        </div>
+                                    </a>
+                                    <div class="old-product-card-info">
+                                        <div class="old-product-card-name">
+                                            <a href="#" class="old-product-card-name-link">iPhone 11 Pro 512GB</a>
+                                        </div>
+                                        <div class="old-product-card-price-old">
+                                            Giá từ: 
+                                            <span class="old-product-price">31.152.000đ</span>
+                                        </div>
+                                        <div class="old-product-card-price-new">
+                                            Giá máy mới: 37.900.000 đ
+                                        </div>
+                                        <div class="old-product-card-save">
+                                            Tiết kiệm: 6.838.000 đ (18%)
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                            <div class="col l-2-4 m-6 c-6">
+                                <div class="old-product-card">
+                                    <a href="#" class="old-product-card-link">
+                                        <img src="./assets/images/637382726336418025_ip-12-pro-max-xanh-1.png" alt="iPhone 12 Pro Max 256GB" class="old-product-card-img">
+                                        <div class="old-product-card-count">2 máy</div>
+                                        <div class="old-product-card-detail">
+                                            <span class="old-product-card-detail-label">Còn 2 máy tại: </span>
+                                            Hồ Chí Minh,Quảng Ninh
+                                        </div>
+                                    </a>
+                                    <div class="old-product-card-info">
+                                        <div class="old-product-card-name">
+                                            <a href="#" class="old-product-card-name-link">iPhone 12 Pro Max 256GB</a>
+                                        </div>
+                                        <div class="old-product-card-price-old">
+                                            Giá từ: 
+                                            <span class="old-product-price">30.393.000đ</span>
+                                        </div>
+                                        <div class="old-product-card-price-new">
+                                            Giá máy mới: 37.990.000 đ
+                                        </div>
+                                        <div class="old-product-card-save">
+                                            Tiết kiệm: 7.597.000 đ (20%)
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                            <div class="col l-2-4 m-6 c-6">
+                                <div class="old-product-card">
+                                    <a href="#" class="old-product-card-link">
+                                        <img src="./assets/images/637382706652697887_ip-12-pro-xanh-1.png" alt="iPhone 12 Pro 256GB" class="old-product-card-img">
+                                        <div class="old-product-card-count">1 máy</div>
+                                        <div class="old-product-card-detail">
+                                            <span class="old-product-card-detail-label">Còn 1 máy tại: </span>
+                                            Hà Nội
+                                        </div>
+                                    </a>
+                                    <div class="old-product-card-info">
+                                        <div class="old-product-card-name">
+                                            <a href="#" class="old-product-card-name-link">iPhone 12 Pro 256GB</a>
+                                        </div>
+                                        <div class="old-product-card-price-old">
+                                            Giá từ: 
+                                            <span class="old-product-price">28.688.000đ</span>
+                                        </div>
+                                        <div class="old-product-card-price-new">
+                                            Giá máy mới: 34.990.000 đ
+                                        </div>
+                                        <div class="old-product-card-save">
+                                            Tiết kiệm: 6.302.000 đ (20%)
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                            <div class="col l-2-4 m-6 c-6">
+                                <div class="old-product-card">
+                                    <a href="#" class="old-product-card-link">
+                                        <img src="./assets/images/637037687763926758_11-pro-max-xanh.png" alt="iPhone 11 Pro Max 512GB" class="old-product-card-img">
+                                        <div class="old-product-card-count">6 máy</div>
+                                        <div class="old-product-card-detail">
+                                            <span class="old-product-card-detail-label">Còn 6 máy tại: </span>
+                                            Đồng Nai, Hải Dương, Hồ Chí Minh
+                                        </div>
+                                    </a>
+                                    <div class="old-product-card-info">
+                                        <div class="old-product-card-name">
+                                            <a href="#" class="old-product-card-name-link">iPhone 11 Pro Max 512GB</a>
+                                        </div>
+                                        <div class="old-product-card-price-old">
+                                            Giá từ: 
+                                            <span class="old-product-price">27.687.000đ</span>
+                                        </div>
+                                        <div class="old-product-card-price-new">
+                                            Giá máy mới: 38.990.000 đ
+                                        </div>
+                                        <div class="old-product-card-save">
+                                            Tiết kiệm: 11.303.000 đ (29%)
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                            <div class="col l-2-4 m-6 c-6">
+                                <div class="old-product-card">
+                                    <a href="#" class="old-product-card-link">
+                                        <img src="./assets/images/636748771945549047_iPhone-Xs-Max-White.png" alt="iPhone Xs Max 512GB" class="old-product-card-img">
+                                        <div class="old-product-card-count">8 máy</div>
+                                        <div class="old-product-card-detail">
+                                            <span class="old-product-card-detail-label">Còn 8 máy tại: </span>
+                                            Hà Nội, Cần Thơ, Hồ Chí Minh, Tây Ninh, Thanh Hóa
+                                        </div>
+                                    </a>
+                                    <div class="old-product-card-info">
+                                        <div class="old-product-card-name">
+                                            <a href="#" class="old-product-card-name-link">iPhone Xs Max 512GB</a>
+                                        </div>
+                                        <div class="old-product-card-price-old">
+                                            Giá từ: 
+                                            <span class="old-product-price">27.588.000đ</span>
+                                        </div>
+                                        <div class="old-product-card-price-new">
+                                            Giá máy mới: 39.990.000 đ
+                                        </div>
+                                        <div class="old-product-card-save">
+                                            Tiết kiệm: 12.402.000 đ (31%)
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                            <div class="col l-2-4 m-6 c-6">
+                                <div class="old-product-card">
+                                    <a href="#" class="old-product-card-link">
+                                        <img src="./assets/images/637382726336418025_ip-12-pro-max-xanh-1 (1).png" alt="iPhone 12 Pro Max 128GB" class="old-product-card-img">
+                                        <div class="old-product-card-count">1 máy</div>
+                                        <div class="old-product-card-detail">
+                                            <span class="old-product-card-detail-label">Còn 1 máy tại: </span>
+                                            Tây Ninh
+                                        </div>
+                                    </a>
+                                    <div class="old-product-card-info">
+                                        <div class="old-product-card-name">
+                                            <a href="#" class="old-product-card-name-link">iPhone 12 Pro Max 128GB</a>
+                                        </div>
+                                        <div class="old-product-card-price-old">
+                                            Giá từ: 
+                                            <span class="old-product-price">27.192.000đ</span>
+                                        </div>
+                                        <div class="old-product-card-price-new">
+                                            Giá máy mới: 33.990.000 đ
+                                        </div>
+                                        <div class="old-product-card-save">
+                                            Tiết kiệm: 6.798.000 đ (20%)
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                            <div class="col l-2-4 m-6 c-6">
+                                <div class="old-product-card">
+                                    <a href="#" class="old-product-card-link">
+                                        <img src="./assets/images/637037687763926758_11-pro-max-xanh (1).png" alt="iPhone 11 Pro Max 256GB" class="old-product-card-img">
+                                        <div class="old-product-card-count">3 máy</div>
+                                        <div class="old-product-card-detail">
+                                            <span class="old-product-card-detail-label">Còn 3 máy tại: </span>
+                                            Hà Nội, Hồ Chí Minh, Quãng Ngãi
+                                        </div>
+                                    </a>
+                                    <div class="old-product-card-info">
+                                        <div class="old-product-card-name">
+                                            <a href="#" class="old-product-card-name-link">iPhone 11 Pro Max 256GB</a>
+                                        </div>
+                                        <div class="old-product-card-price-old">
+                                            Giá từ: 
+                                            <span class="old-product-price">26.246.000đ</span>
+                                        </div>
+                                        <div class="old-product-card-price-new">
+                                            Giá máy mới: 34.990.000 đ
+                                        </div>
+                                        <div class="old-product-card-save">
+                                            Tiết kiệm: 8.744.000 đ (25%)
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                            <div class="col l-2-4 m-6 c-6">
+                                <div class="old-product-card">
+                                    <a href="#" class="old-product-card-link">
+                                        <img src="./assets/images/637382706652697887_ip-12-pro-xanh-1 (1).png" alt="iPhone 12 Pro 128GB" class="old-product-card-img">
+                                        <div class="old-product-card-count">1 máy</div>
+                                        <div class="old-product-card-detail">
+                                            <span class="old-product-card-detail-label">Còn 1 máy tại: </span>
+                                            Hồ Chí Minh
+                                        </div>
+                                    </a>
+                                    <div class="old-product-card-info">
+                                        <div class="old-product-card-name">
+                                            <a href="#" class="old-product-card-name-link">iPhone 12 Pro 128GB</a>
+                                        </div>
+                                        <div class="old-product-card-price-old">
+                                            Giá từ: 
+                                            <span class="old-product-price">25.410.000đ</span>
+                                        </div>
+                                        <div class="old-product-card-price-new">
+                                            Giá máy mới: 30.990.000 đ
+                                        </div>
+                                        <div class="old-product-card-save">
+                                            Tiết kiệm: 5.580.000 đ (18%)
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                            <div class="col l-2-4 m-6 c-6">
+                                <div class="old-product-card">
+                                    <a href="#" class="old-product-card-link">
+                                        <img src="./assets/images/637037672778988772_11-pro-xanh.png" alt="iPhone 11 Pro 256GB" class="old-product-card-img">
+                                        <div class="old-product-card-count">10 máy</div>
+                                        <div class="old-product-card-detail">
+                                            <span class="old-product-card-detail-label">Còn 10 máy tại: </span>
+                                            Bà Rịa - Vũng Tàu, Đắk Lắk, Bình Dương, Hà Nội, Hải Dương, Huế, Thanh Hóa, Tiền Giang
+                                        </div>
+                                    </a>
+                                    <div class="old-product-card-info">
+                                        <div class="old-product-card-name">
+                                            <a href="#" class="old-product-card-name-link">iPhone 11 Pro 256GB</a>
+                                        </div>
+                                        <div class="old-product-card-price-old">
+                                            Giá từ: 
+                                            <span class="old-product-price">23.991.000đ</span>
+                                        </div>
+                                        <div class="old-product-card-price-new">
+                                            Giá máy mới: 31.990.000 đ
+                                        </div>
+                                        <div class="old-product-card-save">
+                                            Tiết kiệm: 7.999.000 đ (25%)
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                            <div class="col l-2-4 m-6 c-6">
+                                <div class="old-product-card">
+                                    <a href="#" class="old-product-card-link">
+                                        <img src="./assets/images/637322682441632129_ss-note-20-ultra-gold-1.png" alt="Samsung Galaxy Note 20 Ultra 5G" class="old-product-card-img">
+                                        <div class="old-product-card-count">15 máy</div>
+                                        <div class="old-product-card-detail">
+                                            <span class="old-product-card-detail-label">Còn 15 máy tại: </span>
+                                            Hà Nội, Cần Thơ, Đà Nẵng, Đồng Nai, Hồ Chí Minh, Lào Cai, Ninh Bình, Phú Thọ, Quảng Bình
+                                        </div>
+                                    </a>
+                                    <div class="old-product-card-info">
+                                        <div class="old-product-card-name">
+                                            <a href="#" class="old-product-card-name-link">Samsung Galaxy Note 20 Ultra 5G</a>
+                                        </div>
+                                        <div class="old-product-card-price-old">
+                                            Giá từ: 
+                                            <span class="old-product-price">23.749.000đ</span>
+                                        </div>
+                                        <div class="old-product-card-price-new">
+                                            Giá máy mới: 32.990.000 đ
+                                        </div>
+                                        <div class="old-product-card-save">
+                                            Tiết kiệm: 9.241.000 đ (28%)
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                            <div class="col l-2-4 m-6 c-6">
+                                <div class="old-product-card">
+                                    <a href="#" class="old-product-card-link">
+                                        <img src="./assets/images/637037687763107876_11-pro-max-trang.png" alt="iPhone 11 Pro Max 64GB" class="old-product-card-img">
+                                        <div class="old-product-card-count">4 máy</div>
+                                        <div class="old-product-card-detail">
+                                            <span class="old-product-card-detail-label">Còn 4 máy tại: </span>
+                                            Đắk Lắk, Hồ Chí Minh
+                                        </div>
+                                    </a>
+                                    <div class="old-product-card-info">
+                                        <div class="old-product-card-name">
+                                            <a href="#" class="old-product-card-name-link">iPhone 11 Pro Max 64GB</a>
+                                        </div>
+                                        <div class="old-product-card-price-old">
+                                            Giá từ: 
+                                            <span class="old-product-price">23.089.000đ</span>
+                                        </div>
+                                        <div class="old-product-card-price-new">
+                                            Giá máy mới: 29.990.000 đ
+                                        </div>
+                                        <div class="old-product-card-save">
+                                            Tiết kiệm: 6.901.000 đ (23%)
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                            <div class="col l-2-4 m-6 c-6">
+                                <div class="old-product-card">
+                                    <a href="#" class="old-product-card-link">
+                                        <img src="./assets/images/637382632990998957_ip-12-xanhduong-1.png" alt="iPhone 12 Pro 256GB" class="old-product-card-img">
+                                        <div class="old-product-card-count">2 máy</div>
+                                        <div class="old-product-card-detail">
+                                            <span class="old-product-card-detail-label">Còn 2 máy tại: </span>
+                                            Tây Ninh, Thanh Hóa
+                                        </div>
+                                    </a>
+                                    <div class="old-product-card-info">
+                                        <div class="old-product-card-name">
+                                            <a href="#" class="old-product-card-name-link">iPhone 12 Pro 256GB</a>
+                                        </div>
+                                        <div class="old-product-card-price-old">
+                                            Giá từ: 
+                                            <span class="old-product-price">22.792.000đ</span>
+                                        </div>
+                                        <div class="old-product-card-price-new">
+                                            Giá máy mới: 28.490.000 đ
+                                        </div>
+                                        <div class="old-product-card-save">
+                                            Tiết kiệm: 5.698.000 đ (20%)
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                            <div class="col l-2-4 m-6 c-6">
+                                <div class="old-product-card">
+                                    <a href="#" class="old-product-card-link">
+                                        <img src="./assets/images/637382632991467615_ip-12-do-1.png" alt="iPhone 12 Pro 128GB" class="old-product-card-img">
+                                        <div class="old-product-card-count">1 máy</div>
+                                        <div class="old-product-card-detail">
+                                            <span class="old-product-card-detail-label">Còn 1 máy tại: </span>
+                                            Đắk Lắk
+                                        </div>
+                                    </a>
+                                    <div class="old-product-card-info">
+                                        <div class="old-product-card-name">
+                                            <a href="#" class="old-product-card-name-link">iPhone 12 Pro 128GB</a>
+                                        </div>
+                                        <div class="old-product-card-price-old">
+                                            Giá từ: 
+                                            <span class="old-product-price">22.132.000đ</span>
+                                        </div>
+                                        <div class="old-product-card-price-new">
+                                            Giá máy mới: 26.990.000 đ
+                                        </div>
+                                        <div class="old-product-card-save">
+                                            Tiết kiệm: 4.858.000 đ (18%)
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="category-box-old-product-view-more">
+                            <a href="#" class="category-box-old-product-view-more-link">
+                                Xem thêm <span> 228 </span> sản phẩm
+                                <i class="fas fa-chevron-down category-box-old-product-view-more-icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                    
+                </div> 
+                <div class="contact-policy hide-on-mobile-tablet">
+                    <div class="contact-box">
+                        <i class="fas fa-phone-alt phone-icon"></i>
+                        <div class="contact-box-detail">
+                            <span class="contact-box-detail-title">Tư vấn miễn phí</span>
+                            <p class="contact-box-detail-info">
+                                Tổng đài <span>18006601</span> gọi để nghe tư vấn nhanh, cuộc gọi miễn phí
+                            </p>
+                        </div>
+                    </div>
+                    <div class="policy-box">
+                        <div class="policy-box-title">Giới thiệu về máy đổi trả tại FPT Shop</div>
+                        <p class="policy-box-text">
+                            <span>Máy đổi trả</span> là những Điện thoại , Máy tính bảng, Laptop được bán ra tại FPT Shop, miễn phí đổi sản phẩm tương đương trong 30 ngày đầu tiên nếu sản phẩm có lỗi nhà sản xuất.
+                        </p>
+                        <p class="policy-box-text">
+                            <span>FPT Shop</span>
+                            chỉ thu lại những sản phẩm được bán ra tại FPT Shop, không thu mua lại các sản phẩm nơi khác. Vì vậy, các sản phẩm đều là hàng chính hãng và có chất lượng tốt nhất.
+                        </p>
+                        <p class="policy-box-text">Tham khảo chi tiết chính sách máy đổi trả <a href="#">tại đây</a>.</p>
+                    </div>
+                </div>
+            </div>
+            
+            
+        </div>
+        <footer class="footer">
+            <div class="grid wide">
+             <div class="grid wide hide-on-mobile-tablet">
+                 <div class="row">
+                     <div class="col l-2">
+                         <div class="footer__support">
+                             <ul class="footer__support-list">
+                                 <li class="footer__support-item">
+                                     <a href="#" class="footer__support-link">
+                                         Giới thiệu về công ty
+                                     </a>
+                                 </li>
+                                 <li class="footer__support-item">
+                                     <a href="#" class="footer__support-link">
+                                         Câu hỏi thường gặp
+                                     </a>
+                                 </li>
+                                 <li class="footer__support-item">
+                                     <a href="#" class="footer__support-link">
+                                         Chính sách bảo mật
+                                     </a>
+                                 </li>
+                                 <li class="footer__support-item">
+                                     <a href="#" class="footer__support-link">
+                                         Quy chế hoạt động
+                                     </a>
+                                 </li>
+                                 <li class="footer__support-item">
+                                     <a href="#" class="footer__support-link">
+                                         Kiểm tra hóa đơn điện tử
+                                     </a>
+                                 </li>
+                                 <li class="footer__support-item">
+                                     <a href="#" class="footer__support-link">
+                                         Tra cứu thông tin bảo hành
+                                     </a>
+                                 </li>
+                             </ul>
+                         </div>
+                     </div>
+                     <div class="col l-2">
+                         <div class="footer__support">
+                             <ul class="footer__support-list">
+                                 <li class="footer__support-item">
+                                     <a href="#" class="footer__support-link">
+                                         Tin tuyển dụng
+                                     </a>
+                                 </li>
+                                 <li class="footer__support-item">
+                                     <a href="#" class="footer__support-link">
+                                         Tin khuyến mãi
+                                     </a>
+                                 </li>
+                                 <li class="footer__support-item">
+                                     <a href="#" class="footer__support-link">
+                                         Hướng dẫn mua online
+                                     </a>
+                                 </li>
+                                 <li class="footer__support-item">
+                                     <a href="#" class="footer__support-link">
+                                         Hướng dẫn mua trả góp
+                                     </a>
+                                 </li>
+                                 <li class="footer__support-item">
+                                     <a href="#" class="footer__support-link">
+                                         Chính sách trả góp
+                                     </a>
+                                 </li>
+                             </ul>
+                         </div>
+                     </div>
+                     <div class="col l-3">
+                         <div class="footer__support">
+                             <ul class="footer__support-list">
+                                 <li class="footer__support-item">
+                                     <a href="#" class="footer__support-link">
+                                         Hệ thông cửa hàng
+                                     </a>
+                                 </li>
+                                 <li class="footer__support-item">
+                                     <a href="#" class="footer__support-link">
+                                         Hệ thống bảo hành
+                                     </a>
+                                 </li>
+                                 <li class="footer__support-item">
+                                     <a href="#" class="footer__support-link">
+                                         Kiểm tra hàng Apple chính hãng
+                                     </a>
+                                 </li>
+                                 <li class="footer__support-item">
+                                     <a href="#" class="footer__support-link">
+                                         Giới thiệu máy đổi trả
+                                     </a>
+                                 </li>
+                                 <li class="footer__support-item">
+                                     <a href="#" class="footer__support-link">
+                                         Chính sách đổi trả
+                                     </a>
+                                 </li>
+                             </ul>
+                         </div>
+                     </div>
+                     <div class="col l-2">
+                         <ul class="footer__support-list">
+                             <li class="footer__support-item">
+                                 <span class="footer__support-label">Tư vấn mua hàng</span>
+                                 <a href="#" class="footer__support-link-hotline">
+                                     1800 6601
+                                 </a>
+                                 <span class="footer__support-info">(Nhánh 1)</span>
+                             </li>
+                             <li class="footer__support-item">
+                                 <span class="footer__support-label">Hỗ trợ kỹ thuật</span>
+                                 <a href="#" class="footer__support-link-hotline">
+                                     1800 6601
+                                 </a>
+                                 <span class="footer__support-info">(Nhánh 2)</span>
+                             </li>
+                             <li class="footer__support-item">
+                                 <span class="footer__support-label footer__support-label-pay">Hỗ trợ thanh toán:</span>
+                                 <div class="footer__support-icon">
+                                     <a href="#" class="footer__support-link-hotline">
+                                         <img src="./assets/images/363_Visa_Credit_Card_logo-512.png" alt="Visa" class="footer__support-link-icon">
+                                     </a>
+                                     <a href="#" class="footer__support-link-hotline">
+                                         <img src="./assets/images/Master-Card-Blue-icon.png" alt="Mastercard" class="footer__support-link-icon">
+                                     </a>
+                                     <a href="#" class="footer__support-link-hotline">
+                                         <img src="./assets/images/logo_atm.png" alt="ATM" class="footer__support-link-icon">
+                                     </a>
+                                 </div>
+                             </li>
+                         </ul>
+                     </div>
+                     <div class="col l-3">
+                         <ul class="footer__support-list">
+                             <li class="footer__support-item">
+                                 <span class="footer__support-label">Góp ý, khiếu nại dịch vụ</span>
+                                 <a href="#" class="footer__support-link-hotline">
+                                     1800 6601
+                                 </a>
+                                 <span class="footer__support-info">(8h00-22h00)</span>
+                             </li>
+                             <li class="footer__support-item">
+                                 <span class="footer__support-label">Tư vấn về bảo hành</span>
+                                 <a href="#" class="footer__support-link-hotline">
+                                     1800 1064
+                                 </a>
+                                 <span class="footer__support-info">(8:30 - 22:00)</span>
+                             </li>
+                             <li class="footer__support-item">
+                                 <span class="footer__support-label">Tư vấn về đổi trả</span>
+                                 <a href="#" class="footer__support-link-hotline">
+                                     1800 6921
+                                 </a>
+                                 <span class="footer__support-info">(7:30 - 22:00)</span>
+                             </li>
+                         </ul>
+                     </div>
+                 </div>
+             </div>
+             <div class="footer__moblie-tablet">
+                 <ul class="footer__moblie-tablet-list">
+                     <li class="footer__moblie-tablet-item">
+                         <a href="#" class="footer__moblie-tablet-link">
+                             <span class="footer__support-label">Tư vấn mua hàng:</span>
+                             <span class="footer__support-link-hotline">1800 6601</span>
+                             <span class="footer__support-info">(Nhánh 1)</span>
+                         </a>
+                     </li>
+                         <a href="#" class="footer__moblie-tablet-link">
+                             <span class="footer__support-label">Hỗ trợ kỹ thuật:</span>
+                             <span class="footer__support-link-hotline">1800 6601</span>
+                             <span class="footer__support-info">(Nhánh 2)</span>
+                         </a>
+                     <li>
+                         <a href="#" class="footer__moblie-tablet-link">
+                             <span class="footer__support-label">Góp ý, khiếu nại:</span>
+                             <span style="flex: 1;" class="footer__support-link-hotline">1800 6616</span>
+                         </a>
+                     </li>
+                     <li>
+                         <a href="#" class="footer__moblie-tablet-link footer__moblie-tablet-link-view-all">
+                             Xem danh sách cửa hàng FPT Shop
+                             <i class="icon-right-footer fas fa-angle-right"></i>
+                         </a>
+                     </li>
+                 </ul>
+                 <span class="footer__moblie-tablet-more-info-title">THÔNG TIN KHÁC</span>
+                 <ul class="footer__moblie-tablet-more-info">
+                     <li class="footer__moblie-tablet-more-info-item">
+                         <a href="#" class="footer__moblie-tablet-more-info-link">
+                             Giới thiệu về công ty
+                         </a>
+                     </li>
+                     <li class="footer__moblie-tablet-more-info-item">
+                         <a href="#" class="footer__moblie-tablet-more-info-link">
+                             Kiểm tra hàng Apple chính hãng
+                         </a>
+                     </li>
+                     <li class="footer__moblie-tablet-more-info-item">
+                         <a href="#" class="footer__moblie-tablet-more-info-link">
+                             Tin tuyển dụng
+                         </a>
+                     </li>
+                     <li class="footer__moblie-tablet-more-info-item">
+                         <a href="#" class="footer__moblie-tablet-more-info-link">
+                             Hướng dẫn mua trả góp
+                         </a>
+                     </li>
+                     <li class="footer__moblie-tablet-more-info-item">
+                         <a href="#" class="footer__moblie-tablet-more-info-link">
+                             Quy chế hoạt động
+                         </a>
+                     </li>
+                     <li class="footer__moblie-tablet-more-info-item">
+                         <a href="#" class="footer__moblie-tablet-more-info-link">
+                             Câu hỏi thường gặp
+                         </a>
+                     </li>
+                     <li class="footer__moblie-tablet-more-info-item">
+                         <a href="#" class="footer__moblie-tablet-more-info-link">
+                             Giới thiệu máy đổi trả
+                         </a>
+                     </li>
+                     <li class="footer__moblie-tablet-more-info-item">
+                         <a href="#" class="footer__moblie-tablet-more-info-link">
+                             Tin khuyến mãi
+                         </a>
+                     </li>
+                     <li class="footer__moblie-tablet-more-info-item">
+                         <a href="#" class="footer__moblie-tablet-more-info-link">
+                             Kiểm tra hóa đơn điện tử
+                         </a>
+                     </li>
+                     <li class="footer__moblie-tablet-more-info-item">
+                         <a href="#" class="footer__moblie-tablet-more-info-link">
+                             Hệ thống bảo hành
+                         </a>
+                     </li>
+                     <li class="footer__moblie-tablet-more-info-item">
+                         <a href="#" class="footer__moblie-tablet-more-info-link">
+                             Chính sách trả góp
+                         </a>
+                     </li>
+                     <li class="footer__moblie-tablet-more-info-item">
+                         <a href="#" class="footer__moblie-tablet-more-info-link">
+                             Chính sách bảo mật
+                         </a>
+                     </li>
+                     <li class="footer__moblie-tablet-more-info-item">
+                         <a href="#" class="footer__moblie-tablet-more-info-link">
+                             Chính sách đổi trả
+                         </a>
+                     </li>
+                     <li class="footer__moblie-tablet-more-info-item">
+                         <a href="#" class="footer__moblie-tablet-more-info-link">
+                             Hướng dẫn mua online
+                         </a>
+                     </li>
+                     <li class="footer__moblie-tablet-more-info-item">
+                         <a href="#" class="footer__moblie-tablet-more-info-link">
+                             Tra cứu thông tin bảo hành
+                         </a>
+                     </li>
+                 </ul>
+                 <div class="footer__moblie-tablet-pay">
+                     <span class="footer__support-label footer__support-label-sup">Hỗ trợ thanh toán</span>
+                     <div class="footer__moblie-tablet-pay-icon">
+                         <a href="#" class="footer__moblie-tablet-pay-link">
+                             <img src="./assets/images/363_Visa_Credit_Card_logo-512.png" alt="Visa" class="footer__moblie-tablet-pay-img">
+                         </a>
+                         <a href="#" class="footer__moblie-tablet-pay-link">
+                             <img src="./assets/images/Master-Card-Blue-icon.png" alt="Mastercard" class="footer__moblie-tablet-pay-img">
+                         </a>
+                         <a href="#" class="footer__moblie-tablet-pay-link">
+                             <img src="./assets/images/logo_atm.png" alt="ATM" class="footer__moblie-tablet-pay-img">
+                         </a>
+                     </div>
+                 </div>
+             </div>
+             
+            </div>
+            <div class="footer-info">
+             © 2007 - 2020 Công Ty Cổ Phần Bán Lẻ Kỹ Thuật Số FPT / Địa chỉ: 261 - 263 Khánh Hội, P5, Q4, TP. Hồ Chí Minh / GPĐKKD số 0311609355 do Sở KHĐT TP.HCM cấp ngày 08/03/2012. GP số 47/GP-TTĐT do sở TTTT TP HCM cấp ngày 02/07/2018. Điện thoại: (028)73023456. Email: fptshop@fpt.com.vn. Chịu trách nhiệm nội dung: Nguyễn Trịnh Nhật Linh.
+             </div>
+         </footer>
+    </div>
+    <script src="./assets/js/menumoblietablet.js"></script>
+    <script src="./assets/js/formmobile.js"></script>
+    <script src="./assets/slick-1.8.1/slick/slick.min.js"></script>
+    <script src="./assets/js/slider.js"></script>
+    <script src="./assets/js/buttonsort.js"></script>
+    <script src="./assets/js/checkedinput.js"></script>
+    <script src="./assets/js/showdropdown.js"></script>
+    <script>
+        $('.slider-main-on-mobile').slick({
+            infinite: true,
+            autoplay: true,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            dots: true,
+            pauseOnHover:true,
+            prevArrow: '<div class="slider-arrow-custom slider-arrow-prev"><i class="fas fa-chevron-left"></i></div>',
+            nextArrow: '<div class="slider-arrow-custom slider-arrow-next"><i class="fas fa-chevron-right"></i></div>',
+        });
+    </script>
+</body>
+</html>

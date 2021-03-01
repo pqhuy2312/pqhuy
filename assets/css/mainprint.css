@@ -1,0 +1,404 @@
+body {
+    background-color: #f8f8f8;
+
+}
+.router {
+    background-color: #F8F9FA;
+}
+/* bg slider main */
+.slider-main {
+    margin: 0 0 30px 0;
+}
+.slick-dots li {
+    background-color: #CCC;
+    height: 4px;
+}
+.slider-img {
+    border-radius: 6px;
+}
+/* apple cate pc */
+.apple-category-pc {
+    padding: 20px 36px;
+    height: 180px;
+    background-color: var(--white-color);
+    border-radius: 6px;
+    overflow: hidden;
+    position: relative;
+}
+.apple-category-pc-show-btn-icon {
+    color: #8795A9;
+    font-size: 2.5rem;
+}
+.apple-category-pc-show-btn {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #d7e2ec;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+.apple-category-pc-show-btn:hover {
+    background-color: rgb(68, 67, 67);
+}
+.apple-category-pc-show-btn:hover .apple-category-pc-show-btn-icon {
+    color: var(--white-color);
+}
+.apple-category-pc-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+.apple-category-pc-icon {
+    font-size: 50px;
+    color: #333;
+}
+.apple-category-pc-link {
+    border-radius: 50%;
+    text-decoration: none;
+    color: transparent;
+    background-color: transparent;
+    border: 1px solid #D0D0D0;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.apple-category-pc-item {
+    width: 12.5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 80px;
+}
+.apple-category-pc-item:last-child {
+    margin-bottom: 0;
+}
+.apple-category-pc-label {
+    font-size: 1.4rem;
+    color: #737373;
+}
+.apple-category-pc-item.active .apple-category-pc-link{
+    background-color: #FCE598;
+}
+.apple-category-pc-item.active .apple-category-pc-label{
+    font-weight: 700;
+    color: #CB1C22;
+}
+.apple-category-pc-item:hover .apple-category-pc-link{
+    background-color: #FCE598;
+}
+.apple-category-pc-item:hover .apple-category-pc-label{
+    font-weight: 700;
+    color: #CB1C22;
+}
+/* cate */
+.app-container-main-apple {
+    background-color: var(--white-color);
+    border-radius: 6px;
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+.app-container-main-apple-header {
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.app-container-main-apple-product-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+}
+.app-container-main-apple-product {
+    padding-top: 15px;
+}
+/* policy */
+.app-container-main-apple-policy {
+    border-radius: 6px;
+    margin-bottom: 30px;
+    padding: 30px 0;
+    background-color: var(--white-color);
+}
+.app-container-main-apple-policy-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.policy-title {
+    font-size: 1.9rem;
+    font-weight: 700;
+    color: #4a4a4a;
+    font-style: italic;
+    margin: 20px 0 12px 0;
+}
+.policy-info {
+    color: #6c757d;
+    font-size: 1.5rem;
+    max-width: 130px;
+    text-align: center;
+    line-height: 22px;
+}
+/* catemobile */
+.apple-category-mobile {
+    display: none;
+    margin: 0 4px;
+}
+.apple-category-mobile-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    
+}
+.apple-category-mobile {
+    background-color: var(--white-color);
+    border-radius: 6px;
+    padding-bottom: 20px;
+}
+.apple-category-mobile-item {
+    display: flex;
+    box-shadow: 0 0 3px 0 #dee2e6;
+    border-radius: 4px;
+    flex-basis: 48.5%;
+    padding: 5px 0 5px 10px;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.apple-category-mobile-item.active .apple-category-mobile-label{
+    font-weight: 700;
+    color: var(--primary-color);
+}
+.apple-category-mobile-item.active {
+    border: 1px solid var(--primary-color);
+}
+.apple-category-mobile-icon {
+    color: #333;
+    font-size: 2rem;
+    margin-right: 10px;
+}
+.apple-category-mobile-link {
+    text-decoration: none;
+}
+.apple-category-mobile-label {
+    font-size: 1.2rem;
+}
+.category-title-mobile {
+    font-size: 2rem;
+    font-weight: 600;
+}
+.category-header {
+    padding: 15px;
+}
+/* sort mobile */
+.sort-button-sort {
+    margin-left: 15px;
+    display: none;
+}
+.sort-button-sort-list {
+    left: 0;
+    right: 0;
+}
+/* search box */
+.search-box {
+    border-radius: 6px;
+    background-color: var(--white-color);
+    padding: 25px 42px;
+    
+}
+.search-box-title {
+    font-size: 2.8rem;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 25px;
+}
+.input-search {
+    width: 100%;
+    padding: 10px 30px 10px 45px;
+    border-radius: 4px;
+    font-size: 1.7rem;
+    outline: none;
+    border: 1px solid #CED4DA;
+}
+.search-box-icon {
+    font-size: 2.1rem;
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #5E646B;
+}
+.search-box-input {
+    position: relative;
+    margin-bottom: 20px;
+}
+.suggest-text-label {
+    color: #6c757d;
+    font-size: 1.4rem;
+    margin-right: 5px;
+}
+.suggest-text-link {
+    font-size: 1.4rem;
+    margin-right: 5px;
+}
+/* custom dropdown list */
+.drop-down-list {
+    width: 250px;
+    z-index: 5;
+}
+.drop-down-item {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding-left: 5px;
+    border-bottom: 1px solid #DEE2E6;
+}
+.drop-down-item:hover {
+    background-color: #E9ECEF;
+}
+.app-container-main-apple-header {
+    margin-right: 15px;
+}
+.sort-option-label-fade {
+    color: #6C757D;
+}
+.sort-option-label-fade:hover {
+    color: #111111;
+}
+.app-container-menuleft {
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+}
+/*  */
+.apple-category-mobile-item.disable {
+    display: none;
+}
+.apple-category-mobile-icon {
+    position: relative;
+    top: 3px;
+}
+.chk {
+    display: none;
+    padding-left: 8px;
+    margin-bottom: 7px;
+}
+/* custtom btn buy */
+.product-card-btn-buy {
+    width: 100%;
+}
+.product-card-btn-compare {
+    display: none !important;
+}
+/*  */
+.app-container-main-apple-title {
+    font-size: 2.8rem;
+    border: 1px solid #E9ECEF;
+    font-weight: 600;
+    color: #212529;
+    padding: 24px 15px;
+    display: flex;
+    align-items: center;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+.app-container-main-apple-title span {
+    color: #6c757d;
+    margin-left: 10px;
+    font-size: 1.8rem;
+    font-weight: normal;
+}
+/* info */
+.product-card-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+    width: 100%;
+    cursor: default;
+    flex-direction: row !important;
+}
+.product-card-info-name {
+    font-size: 1.4rem;
+    color: #333;
+    background-color: #e8eaec;
+    margin-right: 5px;
+    padding: 3px 8px;
+    border-radius: 4px;
+    flex-shrink: 0;
+}
+.product-card-info-product {
+    font-size: 1.4rem;
+    color: #333;
+    background-color: #e8eaec;
+    padding: 3px 8px;
+    border-radius: 4px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+/* banner */
+.mainprint-banner {
+    margin-bottom: 30px;
+    background: url(../images/bg.png) no-repeat;
+    background-size: cover;
+    padding: 46px 52px;
+}
+.mainprint-banner-content {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+}
+.mainprint-banner-list {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+.mainprint-banner-title {
+    text-align: center;
+    color: #495057;
+    margin-top: 30px;
+    cursor: default;
+}
+.mainprint-banner-title-txt1 {
+    font-size: 24px;
+    margin-bottom: 34px;
+}
+.mainprint-banner-title-txt2 {
+    font-weight: bold;
+    font-size: 48px;
+}
+.mainprint-banner-link {
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 6px 6px 18px 6px;
+    background-color: var(--white-color);
+    border-radius: 6px;
+}
+.mainprint-banner-item:hover .mainprint-banner-link-label {
+    font-weight: bold;
+    color: #0050d7;
+}
+.mainprint-banner-item {
+    margin-left: 21px;
+}
+.mainprint-banner-item:first-child {
+    margin-left: 0;
+}
+.mainprint-banner-link-img {
+    border-radius: 6px;
+    margin-bottom: 20px;
+}
+.mainprint-banner-link-label {
+    font-size: 1.6rem;
+    color: #555;
+}
